@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digimon Evolution Viewer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <style>
+    body { background: #f8f9fa; }
+    .evo-chain { display: flex; align-items: center; gap: 1em; margin-top: 2em; }
+    .evo-digimon { padding: 1em; background: #fff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); min-width: 120px; text-align: center; }
+    .arrow { font-size: 2em; color: #888; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="mt-4 mb-3">Digimon Evolution Viewer</h2>
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <label for="evoDigimonSelect" class="form-label">Select Digimon</label>
+        <select class="form-select" id="evoDigimonSelect"></select>
+      </div>
+    </div>
+    <div id="evoChainContainer"></div>
+  </div>
+  <script>
+    let digimonData = [];
+    let digimonEvolutions = [];
+    // Load CSVs
+    window.addEventListener('DOMContentLoaded', function() {
+      Promise.all([
+        fetchAndParseCSV('digimon_data.csv'),
+        fetchAndParseCSV('digimon_evolutions.csv')
+      ]).then(([data, evolutions]) => {
+        digimonData = data;
+        digimonEvolutions = evolutions;
+        renderEvoDigimonSelect();
+      });
+    });
+    function fetchAndParseCSV(path) {
+      return fetch(path)
+        .then(response => {
+          if (!response.ok) throw new Error('Failed to fetch ' + path);
+          return response.text();
+        })
+        .then(csvText => {
+          const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
+          return parsed.data;
+        });
+    }
+    function renderEvoDigimonSelect() {
+      const select = document.getElementById('evoDigimonSelect');
+      select.innerHTML = digimonData.map(d => `<option value="${d.Name}">${d.Name}</option>`).join('');
+      select.onchange = function() {
+        renderEvolutionChain(select.value);
+      };
+      if (digimonData.length) renderEvolutionChain(digimonData[0].Name);
+    }
+    function renderEvolutionChain(name) {
+      const container = document.getElementById('evoChainContainer');
+      let chain = [];
+      // Traverse previous forms
+      let current = name;
+      while (true) {
+        const evo = digimonEvolutions.find(e => e.Digimon === current);
+        if (evo && evo.PreviousForm) {
+          chain.unshift(evo.PreviousForm);
+          current = evo.PreviousForm;
+        } else break;
+      }
+      // Add selected Digimon
+      chain.push(name);
+      // Traverse evolutions
+      current = name;
+      while (true) {
+        const evo = digimonEvolutions.find(e => e.Digimon === current);
+        if (evo && evo.EvolvesTo) {
+          chain.push(evo.EvolvesTo);
+          current = evo.EvolvesTo;
+        } else break;
+      }
+      // Render chain
+      let html = '<div class="evo-chain">';
+      chain.forEach((dig, idx) => {
+        html += `<div class="evo-digimon">${dig}</div>`;
+        if (idx < chain.length - 1) html += '<span class="arrow">→</span>';
+      });
+      html += '</div>';
+      container.innerHTML = html;
+    }
+  </script>
+</body>
+</html>

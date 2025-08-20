@@ -1,0 +1,342 @@
+Digimon,Evolves From,Digivolution Condition,Evolves To
+Kuramon,None,None,Arcadiamon In-Tr.; Tsumemon; Pagumon
+Pabumon,None,None,Tanemon; Yokomon; Motimon
+Punimon,None,None,Tsunomon; Nyaromon
+Botamon,None,None,Koromon; Wanyamon
+Poyomon,None,None,Tokomon; Bukamon
+Arcadiamon In-Tr.,Kuramon,8 | 55 | - | - | - | - | - | 5 | - | Cleared "Hacker's Memory",Arcadiamon Rookie
+Koromon,Botamon,3 | 15 | - | - | - | - | - | - | - | -,Agumon; Guilmon; ToyAgumon; Dracomon; Hackmon; Shoutmon
+Tanemon,Pabumon,5 | - | - | - | - | - | - | - | - | -,Palmon; FanBeemon; Lalamon; Renamon
+Tsunomon,Punimon,5 | - | - | - | - | - | - | - | - | -,Gabumon; Gabumon (Blk); Goblimon; Zubamon; Veemon; Monodramon
+Tsumemon,Kuramon,5 | - | - | - | - | - | - | - | - | -,Agumon (Blk); Keramon; Dracmon; DemiDevimon
+Tokomon,Poyomon,5 | - | - | - | - | - | - | - | - | -,Patamon; Falcomon; Hawkmon; Lucemon; Sistermon Blanc
+Nyaromon,Punimon,3 | - | - | - | 10 | - | - | - | - | -,Armadillomon; Terriermon; Salamon; Lunamon
+Pagumon,Kuramon,5 | - | - | - | - | - | - | - | - | -,Impmon; Gazimon; Chuumon; Lopmon
+Yokomon,Pabumon,3 | - | - | 50 | - | - | - | - | - | -,Elecmon; Biyomon; Mushroomon; Wormmon
+Bukamon,Poyomon,3 | - | - | - | 15 | - | - | - | - | -,Otamamon; Gomamon; Syakomon; Betamon
+Motimon,Pabumon,3 | - | 15 | - | - | - | - | - | - | -,Gotsumon; Solarmon; Tentomon; Hagurumon
+Wanyamon,Botamon,5 | - | - | - | - | - | - | - | - | -,Gaomon; Kudamon; Dorumon; Ryudamon
+Agumon,Koromon,9 | 30 | - | - | - | - | - | - | 10 % | -,Agunimon; Greymon; GeoGreymon; Sukamon; Tyrannomon; Meramon
+Agumon (Blk),Tsumemon,8 | 30 | - | - | - | - | - | - | - | -,Growlmon; Greymon (Blue); Cyclonemon; Tankmon; Tyrannomon; Monochromon
+Arcadiamon Rookie,Arcadiamon In-Tr.,6 | 90 | - | - | - | - | 20 | - | - | Cleared "Hacker's Memory",Arcadiamon Champion; Kurisarimon; Leomon
+Armadillomon,Nyaromon,7 | - | 20 | - | - | - | - | - | 10 % | -,Ankylomon; Geremon; GoldNumemon; Golemon; Cyclonemon; Tankmon
+Impmon,Pagumon,7 | - | - | - | 30 | 20 | - | - | - | -,IceDevimon; Wizardmon; Ogremon; Socerimon; Bakemon; BlackGatomon
+Elecmon,Yokomon,7 | - | - | 75 | - | 20 | 20 | - | - | -,Garurumon; Garurumon (Blk); Geremon; Sukamon; Nanimon; Leomon
+Otamamon,Bukamon,7 | - | - | - | 20 | - | - | - | - | -,ShellNumemon; Gekomon; Seadramon; Coelamon; Numemon; Raremon
+Gaomon,Wanyamon,9 | 20 | - | - | - | - | 20 | - | 10 % | -,Ogremon; GaoGamon; Gargomon; Sangloupmon; Togemon; Leomon
+Gazimon,Pagumon,9 | 15 | - | - | - | - | 20 | - | - | -,GaoGamon; Garurumon (Blk); Kurisarimon; Dorugamon; Nanimon; Leomon
+Gabumon,Tsunomon,7 | 20 | - | 75 | - | - | 20 | - | - | -,Lobomon; Garurumon; Dorugamon; Numemon; Veedramon; Frigimon
+Gabumon (Blk),Tsunomon,6 | 20 | - | 75 | - | - | 20 | - | - | -,Garurumon (Blk); Vegiemon; Frigimon; Raremon; Reppamon
+Guilmon,Koromon,7 | 30 | - | - | - | - | 20 | - | - | -,Agunimon; Growlmon; Greymon (Blue); GeoGreymon; Tyrannomon; Meramon
+Kudamon,Wanyamon,8 | - | - | - | 20 | 20 | - | - | - | -,Lobomon; Angemon; GoldNumemon; Peckmon; Reppamon
+Keramon,Tsumemon,9 | 20 | - | - | - | - | 20 | - | - | -,Arcadiamon Champion; Wizardmon; Kurisarimon; Bakemon; PlatinumSukamon
+Gotsumon,Motimon,8 | - | 30 | - | - | - | - | - | - | -,Icemon; Ankylomon; Clockmon; Golemon; Starmon; Tankmon
+Goblimon,Tsunomon,7 | 40 | - | - | - | - | - | - | - | -,Ogremon; GaoGamon; Growlmon; Greymon (Blue); Coredramon (Green); Nanimon
+Gomamon,Bukamon,8 | - | - | 100 | - | - | - | - | 10 % | -,Icemon; Ankylomon; Ikkakumon; Strikedramon; Socerimon; Frigimon
+Syakomon,Bukamon,7 | - | 15 | - | 20 | - | - | - | - | -,Ikkakumon; ShellNumemon; Gekomon; Seadramon; Coelamon
+Zubamon,Tsunomon,10 | 35 | - | - | - | - | - | - | 10 % | -,GoldNumemon; Zubaeagermon; BaoHuckmon; Ginryumon
+Solarmon,Motimon,6 | - | 25 | 75 | - | - | - | - | - | -,Guardromon (Gold); Clockmon; Geremon; Golemon; Starmon; Meramon
+Chuumon,Pagumon,6 | - | - | - | - | - | 30 | - | - | -,Sukamon; Nanimon; BlackGatomon; Raremon
+Terriermon,Nyaromon,8 | - | - | - | - | - | 30 | - | 10 % | -,Ikkakumon; Gargomon; Gatomon; Unimon; Rapidmon (Armor)
+Tentomon,Motimon,9 | - | 30 | 75 | - | - | - | - | 10 % | -,Kabuterimon; Kuwagamon; Sunflowmon; Stingmon; Waspmon
+ToyAgumon,Koromon,8 | - | 20 | 75 | - | - | - | - | - | -,Guardromon; Guardromon (Gold); Greymon; Clockmon; Sukamon; Starmon
+Dracmon,Tsumemon,8 | 30 | - | - | - | - | 20 | - | - | -,Arcadiamon Champion; Sangloupmon; Devimon; Raremon; Sistermon Ciel
+Dracomon,Koromon,6 | 50 | 20 | - | - | - | - | - | 10 % | -,Coredramon (Blue); Coredramon (Green); Veedramon; Ginryumon
+Dorumon,Wanyamon,8 | 20 | - | - | - | - | 30 | - | - | -,Guardromon; Cyclonemon; Dorugamon; Raptordramon; Waspmon
+Hagurumon,Motimon,7 | - | 30 | 75 | - | - | - | - | 10 % | -,Guardromon; Clockmon; GoldNumemon; Starmon; PlatinumSukamon
+Patamon,Tokomon,7 | - | - | - | 20 | - | 20 | - | 10 % | -,ExVeemon; Angemon; Gatomon; Birdramon; Unimon; Reppamon
+Hackmon,Koromon,9 | 20 | - | - | - | - | - | 20 | - | -,Greymon; GeoGreymon; Zubaeagermon; BaoHuckmon; PlatinumSukamon; Monochromon
+Palmon,Tanemon,8 | - | - | 100 | - | - | - | - | 10 % | -,Woodmon; Kuwagamon; Sunflowmon; MudFrigimon; Togemon; Vegiemon
+DemiDevimon,Tsumemon,8 | - | - | - | - | - | 30 | - | - | -,IceDevimon; Kyubimon; Kurisarimon; Devimon; Bakemon
+Biyomon,Yokomon,8 | - | - | - | 20 | - | 20 | - | 10 % | -,Aquilamon; Airdramon; Kabuterimon; Kyubimon; Birdramon
+Falcomon,Tokomon,9 | - | - | - | - | - | 30 | - | - | -,Aquilamon; ExVeemon; Stingmon; Peckmon
+FanBeemon,Tanemon,6 | - | - | - | - | - | 30 | - | - | -,Guardromon (Gold); Stingmon; Togemon; Raptordramon; Waspmon
+Veemon,Tsunomon,6 | 20 | - | - | - | - | 20 | - | 10 % | -,Lobomon; ExVeemon; Strikedramon; Veedramon; Flamedramon; Magnamon
+Salamon,Nyaromon,7 | - | - | - | 20 | 20 | - | - | 10 % | -,Socerimon; Gatomon; BaoHuckmon; Veedramon; Frigimon; Reppamon
+Betamon,Bukamon,8 | - | - | - | 40 | - | - | - | - | -,Airdramon; ShellNumemon; Gekomon; Seadramon; Numemon; Vegiemon
+Hawkmon,Tokomon,7 | - | - | - | - | - | 30 | - | 10 % | -,Aquilamon; Airdramon; Birdramon; Peckmon; Meramon
+Mushroomon,Yokomon,8 | - | 10 | 75 | - | - | - | - | - | -,Woodmon; Sunflowmon; MudFrigimon; Vegiemon
+Monodramon,Tsunomon,8 | 35 | - | - | - | - | - | - | 10 % | -,Kurisarimon; Coredramon (Blue); Strikedramon; Dorugamon; Raptordramon
+Lalamon,Tanemon,9 | - | - | 75 | - | - | - | - | - | -,Woodmon; Sunflowmon; Togemon; Vegiemon
+Lucemon,Tokomon,30 | - | - | - | 130 | 80 | - | 80 | - | -,Angemon; Devimon; Lucemon FM
+Lunamon,Nyaromon,8 | - | - | - | 20 | 30 | - | - | - | -,Sangloupmon; Gatomon; Lekismon; Sistermon Ciel
+Renamon,Tanemon,7 | 20 | - | - | 20 | - | 20 | - | - | -,Woodmon; Garurumon; Kyubimon; Turuiemon; BlackGatomon; Lekismon
+Lopmon,Pagumon,8 | 15 | - | - | 20 | - | - | - | - | -,Wizardmon; Gargomon; MudFrigimon; Devimon; Turuiemon; BlackGatomon
+Wormmon,Yokomon,8 | - | 20 | - | - | - | - | - | 10 % | -,IceDevimon; Kabuterimon; Kuwagamon; Stingmon; Hudiemon; Waspmon
+IceDevimon,Impmon; DemiDevimon; Wormmon,15 | 40 | - | - | 40 | - | - | - | - | -,Arcadiamon Ultimate; Myotismon; Cherrymon; Dragomon; LadyDevimon
+Icemon,Gotsumon; Gomamon,15 | - | 50 | 110 | - | - | - | - | - | -,Meteormon; Zudomon; Panjyamon
+Aquilamon,Biyomon; Falcomon; Hawkmon,14 | - | - | - | - | - | 55 | - | - | -,AeroVeedramon; Garudamon; Silphymon; HippoGryphonmon; Crowmon
+Agunimon,Agumon; Guilmon,15 | 50 | - | 150 | - | - | - | - | - | Human Spirit of Flame,BurningGreymon; SkullMeramon; Matadormon; RizeGreymon
+Arcadiamon Champion,Arcadiamon Rookie; Keramon; Dracmon,16 | 50 | - | - | 40 | - | - | - | - | Cleared "Hacker's Memory",Arcadiamon Ultimate; Infermon; SkullSatamon
+Ankylomon,Armadillomon; Gotsumon; Gomamon,15 | - | 40 | 150 | - | - | - | - | - | -,Meteormon; Groundramon; Shakkoumon; SkullGreymon; MagnaAngemon
+Ikkakumon,Gomamon; Syakomon; Terriermon,15 | - | - | 300 | - | - | - | - | 25 % | -,Zudomon; Triceramon; Whamon; MachGaogamon
+Wizardmon,Impmon; Keramon; Lopmon,14 | - | - | - | 55 | 30 | - | - | - | -,Myotismon; SkullMeramon; Phantomon; Wisemon
+Lobomon,Gabumon; Kudamon; Veemon,15 | 45 | - | - | - | - | 55 | - | - | Human Spirit of Light,KendoGarurumon; Knightmon; WereGarurumon
+Woodmon,Palmon; Mushroomon; Lalamon; Renamon,14 | - | - | 500 | - | - | - | - | - | -,Cherrymon; Taomon; Pumpkinmon
+Airdramon,Biyomon; Betamon; Hawkmon,14 | 35 | 45 | - | - | - | - | - | - | -,Wingdramon; MegaSeadramon; Megadramon; MetalGreymon
+ExVeemon,Patamon; Falcomon; Veemon,14 | 40 | - | - | - | - | 40 | - | 25 % | -,Wingdramon; Dinobeemon; Paildramon; MagnaAngemon; RizeGreymon
+Angemon,Kudamon; Patamon; Lucemon,16 | 5 | - | - | 40 | - | - | - | - | -,Garudamon; Shakkoumon; SaviorHuckmon; HippoGryphonmon; MagnaAngemon
+Ogremon,Impmon; Gaomon; Goblimon,14 | 55 | - | - | - | - | - | - | - | -,SkullSatamon; Digitamamon; SkullMeramon; WereGarurumon
+Guardromon,ToyAgumon; Dorumon; Hagurumon,14 | - | 55 | - | - | - | - | - | - | -,Andromon; CatchMamemon; GrapLeomon; Datamon; MetalMamemon
+Guardromon (Gold),Solarmon; ToyAgumon; FanBeemon,14 | - | 60 | 130 | - | - | - | - | - | -,Andromon; Grademon; Duramon; Magnamon; Rapidmon (Armor)
+GaoGamon,Gaomon; Gazimon; Goblimon,15 | - | - | - | - | - | 55 | - | - | -,GrapLeomon; MachGaogamon; WereGarurumon
+Kabuterimon,Tentomon; Biyomon; Wormmon,14 | - | 40 | - | 40 | - | - | - | - | -,MegaKabuterimon; Cherrymon; Lilamon
+ShellNumemon,Otamamon; Syakomon; Betamon,14 | - | 55 | 150 | - | - | - | - | - | -,ShogunGekomon; BlackKingNumemon; MegaSeadramon
+Gargomon,Gaomon; Terriermon; Lopmon; Sistermon Blanc,15 | - | - | 150 | - | - | 40 | - | - | -,Antylamon; WarGrowlmon; Rapidmon
+Garurumon,Elecmon; Gabumon; Renamon,15 | - | - | - | - | - | 50 | - | 25 % | -,Zudomon; DoruGreymon; Panjyamon; WereGarurumon
+Garurumon (Blk),Elecmon; Gazimon; Gabumon (Blk),15 | 35 | - | - | - | - | 50 | - | - | -,Pandamon; BlueMeramon; MachGaogamon; WereGarurumon (Blk)
+Kyubimon,DemiDevimon; Biyomon; Renamon,14 | - | - | - | 40 | 40 | 40 | - | - | -,Taomon; Monzaemon; LadyDevimon
+Growlmon,Agumon (Blk); Guilmon; Goblimon,15 | 50 | - | - | - | - | 20 | - | - | -,BurningGreymon; Gigadramon; WarGrowlmon; MetalGreymon; MetalTyrannomon
+Kurisarimon,Arcadiamon Rookie; Gazimon; Keramon; DemiDevimon; Monodramon,16 | 40 | - | 150 | - | - | - | - | - | -,Arcadiamon Ultimate; Infermon; Cyberdramon; Taomon
+Greymon,Agumon; ToyAgumon; Hackmon,16 | 55 | - | - | - | - | - | - | 50 % | -,SkullGreymon; Megadramon; MetalGreymon; MetalGreymon (Blue)
+Greymon (Blue),Agumon (Blk); Guilmon; Goblimon,16 | 50 | - | 150 | - | - | - | - | - | -,Triceramon; DoruGreymon; Knightmon; MetalGreymon (Blue)
+Clockmon,Gotsumon; Solarmon; ToyAgumon; Hagurumon,14 | - | - | - | 35 | - | - | - | - | -,Andromon; Knightmon; Datamon; Wisemon
+Kuwagamon,Tentomon; Palmon; Wormmon,14 | 55 | - | - | - | - | - | - | - | -,Okuwamon; CannonBeemon; Cherrymon
+Gekomon,Otamamon; Syakomon; Betamon,14 | - | - | - | 40 | - | 40 | - | - | -,ShogunGekomon; Whamon; MegaSeadramon
+Geremon,Armadillomon; Elecmon; Solarmon,12 | - | 40 | 130 | - | 25 | - | - | - | -,Etemon; SuperStarmon; MetalMamemon
+Coredramon (Blue),Dracomon; Monodramon,14 | 60 | - | - | - | - | 25 | - | - | -,Wingdramon; AeroVeedramon; BlueMeramon
+Coredramon (Green),Goblimon; Dracomon,14 | 40 | 25 | - | - | - | 40 | - | - | -,Groundramon; Triceramon; WarGrowlmon
+GoldNumemon,Armadillomon; Kudamon; Zubamon; Hagurumon,18 | - | - | - | - | - | - | 5 | - | -,BlackKingNumemon; Vademon; PlatinumNumemon
+Golemon,Armadillomon; Gotsumon; Solarmon,14 | - | 60 | 150 | - | - | - | - | - | -,Meteormon; Pumpkinmon; Volcanomon
+Cyclonemon,Agumon (Blk); Armadillomon; Dorumon,14 | 30 | 40 | - | - | - | - | - | - | -,DoruGreymon; Datamon; Megadramon
+Sangloupmon,Gaomon; Dracmon; Lunamon,15 | 50 | - | - | - | - | 55 | - | - | -,Myotismon; KendoGarurumon; Matadormon; WereGarurumon (Blk)
+Sunflowmon,Tentomon; Palmon; Mushroomon; Lalamon,14 | - | - | 150 | 40 | - | - | - | - | -,Angewomon; Lilamon; Lillymon
+Seadramon,Otamamon; Syakomon; Betamon,14 | - | 30 | - | 40 | - | - | - | - | -,ShogunGekomon; Whamon; MegaSeadramon; Hisyaryumon
+Coelamon,Otamamon; Syakomon,14 | - | - | 300 | - | - | 30 | - | - | -,Andromon; Dragomon; MegaSeadramon; Hisyaryumon
+GeoGreymon,Agumon; Guilmon; Hackmon,15 | 50 | - | 150 | - | - | - | - | - | -,Gigadramon; Groundramon; SkullGreymon; RizeGreymon
+Sukamon,Agumon; Elecmon; Chuumon; ToyAgumon,12 | - | 40 | 150 | - | - | - | - | - | -,Etemon; SuperStarmon; Vademon
+Starmon,Gotsumon; Solarmon; ToyAgumon; Hagurumon,14 | - | 35 | 150 | - | - | - | - | - | -,CatchMamemon; Crescemon; SuperStarmon; Mamemon; MetalMamemon
+Stingmon,Tentomon; Falcomon; FanBeemon; Wormmon,14 | 40 | - | - | - | - | 55 | - | - | -,Infermon; Okuwamon; Dinobeemon; Paildramon
+Strikedramon,Gomamon; Veemon; Monodramon,15 | 45 | - | - | - | - | 50 | - | - | -,Cyberdramon; SaviorHuckmon; WereGarurumon
+Zubaeagermon,Zubamon; Hackmon,20 | 50 | - | - | - | - | 50 | - | - | -,KendoGarurumon; Duramon; Phantomon
+Socerimon,Impmon; Gomamon; Salamon,16 | - | - | - | 40 | 40 | - | - | - | -,Antylamon; Piximon; Wisemon
+Tankmon,Agumon (Blk); Armadillomon; Gotsumon,14 | - | 55 | - | - | - | - | - | - | -,Andromon; Gigadramon; CannonBeemon; Knightmon; Volcanomon
+MudFrigimon,Palmon; Mushroomon; Lopmon,14 | - | 40 | 150 | - | - | - | - | - | -,Meteormon; Pandamon; Pumpkinmon
+Tyrannomon,Agumon; Agumon (Blk); Guilmon,14 | 40 | - | 150 | - | - | - | - | - | -,Mamemon; Megadramon; MetalGreymon (Blue); MetalTyrannomon
+Gatomon,Terriermon; Patamon; Salamon; Lunamon,16 | - | - | - | 40 | - | - | - | 25 % | -,Angewomon; Silphymon; Pandamon; Lillymon
+Devimon,Dracmon; DemiDevimon; Lucemon; Lopmon,16 | 40 | - | - | - | - | - | 5 | - | -,Infermon; Myotismon; SkullSatamon; BlueMeramon; MetalGreymon (Blue)
+Turuiemon,Renamon; Lopmon,14 | 45 | - | - | - | - | 40 | - | - | -,Antylamon; Cyberdramon; Monzaemon
+Togemon,Gaomon; Palmon; FanBeemon; Lalamon,16 | - | - | 300 | - | - | - | - | 25 % | -,Pumpkinmon; MachGaogamon; Lillymon
+Dorugamon,Gazimon; Gabumon; Dorumon; Monodramon,14 | 40 | - | - | - | - | 40 | - | - | -,Grademon; Chirinmon; DoruGreymon; RizeGreymon
+Nanimon,Elecmon; Gazimon; Goblimon; Chuumon,12 | 40 | 40 | - | - | - | - | - | - | -,Meteormon; SuperStarmon; Digitamamon
+Numemon,Otamamon; Gabumon; Betamon,12 | - | 40 | 150 | - | - | - | - | - | -,Etemon; BlackKingNumemon; Monzaemon
+Birdramon,Patamon; Biyomon; Hawkmon,14 | - | - | 40 | 40 | - | 40 | - | - | -,BurningGreymon; AeroVeedramon; Garudamon; Chirinmon; HippoGryphonmon; Crowmon
+BaoHuckmon,Zubamon; Hackmon; Salamon,16 | 55 | - | - | 50 | - | - | - | - | -,KendoGarurumon; SaviorHuckmon; RizeGreymon
+Bakemon,Impmon; Keramon; DemiDevimon,13 | - | - | - | 30 | 40 | - | - | - | -,Myotismon; Pumpkinmon; Phantomon; BlueMeramon; Matadormon; LadyDevimon
+Veedramon,Gabumon; Dracomon; Veemon; Salamon,16 | 40 | - | - | - | - | 35 | - | - | -,AeroVeedramon; Cyberdramon; WarGrowlmon; MetalTyrannomon
+Hudiemon,Wormmon,15 | - | - | - | - | 40 | 40 | - | 100 % | Cleared "Hacker's Memory",CannonBeemon; Lilamon; Lillymon
+PlatinumSukamon,Keramon; Hagurumon; Hackmon,20 | - | - | - | - | - | - | - | - | -,Etemon; CatchMamemon; Vademon; MetalMamemon
+BlackGatomon,Impmon; Chuumon; Renamon; Lopmon,16 | - | - | - | 40 | - | - | - | 25 % | -,Cyberdramon; Knightmon; LadyDevimon; WereGarurumon (Blk)
+Vegiemon,Gabumon (Blk); Palmon; Betamon; Mushroomon; Lalamon,12 | - | - | 300 | - | - | - | - | - | -,MegaKabuterimon; Digitamamon; Lilamon
+Peckmon,Kudamon; Falcomon; Hawkmon,14 | - | - | - | - | - | 50 | - | - | -,Antylamon; Piximon; Crowmon
+Meramon,Agumon; Guilmon; Solarmon; Hawkmon,14 | 40 | - | - | - | - | - | - | - | -,BurningGreymon; SkullMeramon; Panjyamon; BlueMeramon; Volcanomon; Mamemon
+Monochromon,Agumon (Blk); Hackmon,14 | 55 | - | - | - | - | - | - | - | -,SkullGreymon; Triceramon; MetalTyrannomon
+Frigimon,Gabumon; Gabumon (Blk); Gomamon; Salamon,14 | 30 | - | 250 | - | - | - | - | - | -,Angewomon; Crescemon; Zudomon; Monzaemon
+Unimon,Terriermon; Patamon,13 | - | - | - | 40 | - | 40 | - | 10 % | -,Piximon; HippoGryphonmon; MagnaAngemon
+Raptordramon,Dorumon; FanBeemon; Monodramon; Ryudamon,15 | 50 | - | 130 | - | - | - | - | - | -,Gigadramon; Grademon; Duramon; DoruGreymon
+Raremon,Otamamon; Gabumon (Blk); Chuumon; Dracmon,12 | - | - | 500 | - | - | - | - | - | -,SkullSatamon; Dragomon; Phantomon; BlackKingNumemon; MetalGreymon (Blue)
+Leomon,Arcadiamon Rookie; Elecmon; Gaomon; Gazimon,16 | 55 | - | - | - | - | - | - | - | -,Meteormon; GrapLeomon; Grademon; Panjyamon; MetalGreymon
+Lekismon,Lunamon; Renamon; Sistermon Blanc,15 | 35 | - | - | - | - | 40 | - | - | -,Antylamon; Crescemon; MachGaogamon
+Reppamon,Gabumon (Blk); Kudamon; Patamon; Salamon; Ryudamon,16 | - | - | - | - | - | 40 | 5 | - | -,Chirinmon; Piximon; Rapidmon
+Waspmon,Tentomon; Dorumon; FanBeemon; Wormmon,14 | 40 | - | - | - | - | 40 | - | - | -,MegaKabuterimon; Okuwamon; CannonBeemon; Rapidmon
+MegaKabuterimon,Kabuterimon; Vegiemon; Waspmon,28 | - | 95 | 400 | - | - | - | - | - | -,GranKuwagamon; HerculesKabuterimon; Magnadramon
+Arcadiamon Ultimate,IceDevimon; Arcadiamon Champion; Kurisarimon,30 | 110 | - | - | 85 | - | - | - | - | Cleared "Hacker's Memory",Arcadiamon Mega; Diaboromon; Creepymon
+Antylamon,Gargomon; Socerimon; Turuiemon; Peckmon; Lekismon,28 | 65 | - | - | 75 | - | 85 | - | - | -,Kerpymon (Blk); Kerpymon (Good); Dianamon; Diaboromon
+Andromon,Guardromon; Guardromon (Gold); Clockmon; Coelamon; Tankmon,28 | 75 | 75 | - | 75 | - | - | - | - | -,Craniamon; TigerVespamon; HiAndromon
+Meteormon,Icemon; Ankylomon; Golemon; MudFrigimon; Nanimon; Leomon,26 | - | 110 | - | - | - | - | - | - | -,Ebemon; Dianamon; MetalEtemon
+Infermon,Arcadiamon Champion; Kurisarimon; Stingmon; Devimon,30 | 95 | - | - | - | - | 80 | - | - | -,Arcadiamon Mega; VenomMyotismon; Diaboromon; Beelzemon
+Myotismon,IceDevimon; Wizardmon; Sangloupmon; Devimon; Bakemon,30 | 70 | - | - | 90 | - | - | 10 | - | -,Arcadiamon Mega; VenomMyotismon; GranDracmon; Barbamon; Piedmon
+Wingdramon,Airdramon; ExVeemon; Coredramon (Blue),30 | 80 | - | - | - | - | 95 | 10 | - | -,UlforceVeedramon; Slayerdramon; Dynasmon
+BurningGreymon,Agunimon; Growlmon; Birdramon; Meramon,30 | 120 | 60 | 500 | - | - | - | - | - | Beast Spirit of Flame,KaiserGreymon
+AeroVeedramon,Aquilamon; Coredramon (Blue); Birdramon; Veedramon,30 | 75 | - | - | - | - | 95 | - | 25 % | -,UlforceVeedramon; Goldramon; Dynasmon; Ravemon
+Etemon,Geremon; Sukamon; Numemon; PlatinumSukamon,26 | - | 75 | - | - | 75 | 65 | - | - | -,KingEtemon; PileVolcamon; Piedmon; PlatinumNumemon; MetalEtemon
+Angewomon,Sunflowmon; Gatomon; Frigimon,30 | - | - | - | 100 | 75 | - | 10 | - | -,Valkyrimon; Ophanimon; Magnadramon; Mastemon
+Okuwamon,Kuwagamon; Stingmon; Waspmon,26 | 95 | 90 | - | - | - | - | - | - | -,GranKuwagamon; Diaboromon; HerculesKabuterimon
+Garudamon,Aquilamon; Angemon; Birdramon,30 | 75 | - | - | - | - | 75 | - | - | -,Varodurumon; Gryphonmon; Justimon; Hououmon; Ravemon
+KendoGarurumon,Lobomon; Sangloupmon; Zubaeagermon; BaoHuckmon,30 | 100 | - | 300 | - | - | 85 | - | - | Beast Spirit of Light,MagnaGarurumon
+Gigadramon,Growlmon; GeoGreymon; Tankmon; Raptordramon,26 | 75 | 95 | 800 | - | - | - | - | - | -,GroundLocomon; Darkdramon; Dorugoramon; Machinedramon; Megidramon; MetalSeadramon
+CatchMamemon,Guardromon; Starmon; PlatinumSukamon,26 | - | 85 | 700 | - | - | - | - | - | -,Justimon; Puppetmon; PrinceMamemon
+CannonBeemon,Kuwagamon; Tankmon; Hudiemon; Waspmon; Ginryumon,28 | - | 75 | - | - | - | 75 | - | - | -,GroundLocomon; MegaGargomon; TigerVespamon
+Groundramon,Ankylomon; Coredramon (Green); GeoGreymon,30 | 125 | - | 400 | - | - | - | 10 | - | -,Vikemon; Brakedramon; Megidramon
+GrapLeomon,Guardromon; GaoGamon; Leomon,26 | 95 | - | 400 | - | - | - | - | - | -,SaberLeomon; Leopardmon; PileVolcamon; BanchoLeomon
+Grademon,Guardromon (Gold); Dorugamon; Raptordramon; Leomon,30 | 80 | - | 400 | - | - | 70 | - | - | -,Alphamon; TigerVespamon; Durandamon; Dorugoramon; Ouryumon
+Crescemon,Starmon; Frigimon; Lekismon,30 | 70 | - | - | - | 60 | - | - | - | -,Kerpymon (Good); Kentaurosmon; Dianamon
+Cyberdramon,Kurisarimon; Strikedramon; Turuiemon; Veedramon; BlackGatomon,28 | 75 | - | - | - | - | 75 | - | - | -,Alphamon; Justimon; Titamon
+Shakkoumon,Ankylomon; Angemon,30 | - | 75 | - | 65 | - | - | - | 100 % | Ankylomon, Angemon,Vikemon; ChaosGallantmon; Kerpymon (Good)
+Cherrymon,IceDevimon; Woodmon; Kabuterimon; Kuwagamon,28 | - | 70 | 800 | - | - | - | - | - | -,Kuzuhamon; GranKuwagamon; Puppetmon
+Silphymon,Aquilamon; Gatomon,30 | 60 | - | - | 75 | - | 75 | - | 100 % | Aquilamon, Gatomon,Valkyrimon; Gryphonmon; Sakuyamon; Dynasmon; Hououmon
+SuperStarmon,Geremon; Sukamon; Starmon; Nanimon,28 | 70 | 80 | - | - | 70 | - | - | - | -,Gankoomon; Justimon; PlatinumNumemon
+SkullGreymon,Ankylomon; Greymon; GeoGreymon; Monochromon,28 | 120 | 85 | - | - | - | 70 | - | - | -,ShineGreymon; Titamon; Creepymon
+SkullSatamon,Arcadiamon Champion; Ogremon; Devimon; Raremon,28 | 80 | - | - | 70 | - | - | - | - | -,GranDracmon; Diaboromon; Creepymon
+Zudomon,Icemon; Ikkakumon; Garurumon; Frigimon,30 | 75 | - | 800 | - | - | - | - | 50 % | -,Vikemon; Plesiomon; MarineAngemon; MetalGarurumon
+SaviorHuckmon,Angemon; Strikedramon; BaoHuckmon,30 | 90 | - | - | - | - | 80 | - | - | -,Valkyrimon; Jesmon; Slayerdramon
+Taomon,Woodmon; Kyubimon; Kurisarimon,30 | - | - | - | 75 | 60 | 60 | - | - | -,Kuzuhamon; Sakuyamon; Dianamon
+Dragomon,IceDevimon; Coelamon; Raremon,28 | - | - | - | 85 | 70 | - | - | - | -,Ebemon; Neptunemon; Leviamon
+Chirinmon,Dorugamon; Birdramon; Reppamon,30 | - | - | - | - | 75 | 100 | 10 | - | -,Kentaurosmon; Seraphimon; MetalGarurumon
+Dinobeemon,ExVeemon; Stingmon,30 | 90 | - | 400 | - | - | 75 | - | 100 % | ExVeemon, Stingmon,Imperialdramon DM; GranKuwagamon
+Digitamamon,Ogremon; Nanimon; Vegiemon,30 | - | 75 | 700 | - | - | - | - | - | -,Titamon; Belphemon SM; Minervamon
+SkullMeramon,Agunimon; Wizardmon; Ogremon; Meramon,28 | 95 | - | 500 | - | - | - | - | - | -,Gankoomon; Beelzemon; Boltmon
+Duramon,Guardromon (Gold); Zubaeagermon; Raptordramon,40 | 80 | 80 | 800 | - | - | - | - | - | -,Jesmon; TigerVespamon; Durandamon
+ShogunGekomon,ShellNumemon; Gekomon; Seadramon,26 | - | - | 900 | - | - | - | - | - | -,Vikemon; KingEtemon; Plesiomon; Leviamon
+Triceramon,Ikkakumon; Greymon (Blue); Coredramon (Green); Monochromon,28 | 75 | 75 | - | - | - | - | - | - | -,GranKuwagamon; SaberLeomon; Brakedramon
+DoruGreymon,Garurumon; Greymon (Blue); Cyclonemon; Dorugamon; Raptordramon,30 | 95 | 75 | 400 | - | - | - | - | - | -,Alphamon; Kentaurosmon; Dorugoramon; Brakedramon
+Knightmon,Lobomon; Greymon (Blue); Clockmon; Tankmon; BlackGatomon,30 | 75 | 75 | - | - | - | - | - | - | -,Craniamon; Durandamon; Leopardmon; Crusadermon
+Datamon,Guardromon; Clockmon; Cyclonemon,28 | - | - | - | 85 | 60 | - | - | - | -,GroundLocomon; Machinedramon; MetalGarurumon (Blk)
+Paildramon,ExVeemon; Stingmon,30 | 90 | 60 | - | - | - | 75 | - | 100 % | ExVeemon, Stingmon,Imperialdramon DM
+Panjyamon,Icemon; Garurumon; Meramon; Leomon,28 | 75 | - | 350 | - | - | 75 | - | - | -,SaberLeomon; BanchoLeomon; MirageGaogamon
+Pandamon,Garurumon; MudFrigimon; Gatomon; Sistermon Ciel,26 | 65 | 65 | - | - | - | - | - | - | -,KingEtemon; Justimon; BanchoLeomon
+Pumpkinmon,Woodmon; Golemon; MudFrigimon; Togemon; Bakemon,26 | 60 | - | 850 | 60 | - | - | - | - | -,Puppetmon; Boltmon; Rosemon
+Piximon,Socerimon; Peckmon; Unimon; Reppamon,26 | - | - | - | 80 | 75 | 80 | - | - | -,Ophanimon; Hououmon; MarineAngemon
+HippoGryphonmon,Aquilamon; Angemon; Birdramon; Unimon,26 | - | - | - | 65 | 65 | - | - | - | -,Varodurumon; Gryphonmon; Seraphimon
+Phantomon,Wizardmon; Zubaeagermon; Bakemon; Raremon,28 | - | - | - | 80 | 80 | - | - | - | -,VenomMyotismon; Titamon; Barbamon
+BlackKingNumemon,ShellNumemon; GoldNumemon; Numemon; Raremon,32 | - | - | - | - | - | - | - | - | -,PlatinumNumemon; PrinceMamemon; MetalEtemon
+BlueMeramon,Garurumon (Blk); Coredramon (Blue); Devimon; Bakemon; Meramon,28 | 80 | - | 400 | 70 | - | - | - | - | -,Darkdramon; Creepymon; Barbamon; Boltmon
+Vademon,GoldNumemon; Sukamon; PlatinumSukamon,26 | - | - | - | - | 85 | - | - | - | -,Ebemon; HiAndromon; HerculesKabuterimon
+Whamon,Ikkakumon; Gekomon; Seadramon,28 | - | 75 | 850 | 75 | - | - | - | - | -,Neptunemon; Plesiomon; MarineAngemon; MetalSeadramon
+MagnaAngemon,Ankylomon; ExVeemon; Angemon; Unimon,30 | - | - | - | 80 | 80 | - | 10 | - | -,Valkyrimon; Goldramon; ShineGreymon; Seraphimon; Crusadermon
+Volcanomon,Golemon; Tankmon; Meramon,26 | 80 | 75 | - | - | - | - | - | - | -,Gankoomon; PileVolcamon; MetalEtemon
+Matadormon,Agunimon; Sangloupmon; Bakemon,28 | 75 | - | - | - | - | 80 | - | - | -,VenomMyotismon; GranDracmon; Piedmon
+MachGaogamon,Ikkakumon; GaoGamon; Garurumon (Blk); Togemon; Lekismon,26 | 75 | - | - | - | - | 80 | - | - | -,MegaGargomon; BanchoLeomon; MirageGaogamon; Merukimon
+Mamemon,Starmon; Tyrannomon; Meramon,26 | 75 | 80 | - | - | - | - | - | - | -,WarGreymon; Puppetmon; PrinceMamemon
+MegaSeadramon,Airdramon; ShellNumemon; Gekomon; Seadramon; Coelamon; Ginryumon,30 | - | - | 400 | 70 | - | - | - | - | -,Neptunemon; Plesiomon; MetalSeadramon; Leviamon
+Megadramon,Airdramon; Greymon; Cyclonemon; Tyrannomon,26 | 95 | - | 400 | - | - | 75 | - | - | -,UlforceVeedramon; Goldramon; BlackWarGreymon; Machinedramon; Megidramon
+WarGrowlmon,Gargomon; Growlmon; Coredramon (Green); Veedramon,30 | 105 | - | - | - | - | 75 | - | - | -,ChaosGallantmon; Darkdramon; Gallantmon; Megidramon; RustTyranomon
+MetalGreymon,Airdramon; Growlmon; Greymon; Leomon,30 | 100 | - | 350 | - | - | - | - | 50 % | -,WarGreymon; Gaiomon; RustTyranomon
+MetalGreymon (Blue),Greymon; Greymon (Blue); Tyrannomon; Devimon; Raremon,30 | 110 | - | 450 | - | - | - | - | - | -,WarGreymon; Gaiomon; Kerpymon (Blk); BlackWarGreymon
+MetalTyrannomon,Growlmon; Tyrannomon; Veedramon; Monochromon,28 | 75 | 95 | - | - | - | - | - | - | -,Gallantmon; BlackWarGreymon; Brakedramon; RustTyranomon
+MetalMamemon,Guardromon; Geremon; Starmon; PlatinumSukamon,26 | - | 80 | - | 65 | - | - | - | - | -,Ebemon; HiAndromon; PrinceMamemon
+Monzaemon,Kyubimon; Turuiemon; Numemon; Frigimon,26 | 60 | - | 600 | - | - | - | - | - | -,SaberLeomon; Sakuyamon; Minervamon
+Crowmon,Aquilamon; Birdramon; Peckmon,30 | - | - | - | - | 75 | 90 | - | - | -,Varodurumon; Kuzuhamon; Minervamon; Ravemon; Ouryumon
+RizeGreymon,Agunimon; ExVeemon; GeoGreymon; Dorugamon; BaoHuckmon,30 | 100 | - | 350 | - | - | 75 | - | 50 % | -,Gaiomon; ShineGreymon; Slayerdramon
+Lilamon,Kabuterimon; Sunflowmon; Hudiemon; Vegiemon,30 | - | - | - | 75 | 75 | - | - | - | -,Lilithmon; Rosemon; Lotosmon
+Rapidmon,Gargomon; Reppamon; Waspmon,28 | 105 | - | - | - | - | 75 | - | - | -,MegaGargomon; TigerVespamon; MetalGarurumon (Blk)
+Lillymon,Sunflowmon; Gatomon; Togemon; Hudiemon,30 | - | - | - | 75 | - | 80 | - | - | -,Magnadramon; Rosemon; Lotosmon
+Lucemon FM,Lucemon,55 | 180 | - | - | 240 | - | 180 | 80 | - | -,Lucemon SM
+LadyDevimon,IceDevimon; Kyubimon; Bakemon; BlackGatomon; Sistermon Ciel,30 | - | - | - | 90 | 75 | - | 10 | - | -,Mastemon; Lilithmon; Lotosmon
+WereGarurumon,Lobomon; Ogremon; GaoGamon; Garurumon; Strikedramon,28 | 90 | - | - | - | - | 85 | - | 50 % | -,MirageGaogamon; MetalGarurumon; MetalGarurumon (Blk)
+WereGarurumon (Blk),Garurumon (Blk); Sangloupmon; BlackGatomon,28 | 90 | - | 400 | - | - | 70 | - | - | -,BanchoLeomon; Minervamon; MetalGarurumon (Blk); Merukimon
+Wisemon,Wizardmon; Clockmon; Socerimon,28 | - | - | - | 100 | 75 | - | - | - | -,VenomMyotismon; Piedmon; Belphemon SM
+Arcadiamon Mega,Arcadiamon Ultimate; Infermon; Myotismon,60 | 200 | - | - | - | 130 | 100 | 40 | - | Cleared "Hacker's Memory",Arcadiamon Ultra
+Alphamon,Grademon; Cyberdramon; DoruGreymon,60 | 150 | 170 | - | 135 | - | - | 80 | - | -,Alphamon Ouryuken
+UlforceVeedramon,Wingdramon; AeroVeedramon; Megadramon,60 | 120 | - | - | - | - | 145 | 80 | - | -,None
+Ebemon,Meteormon; Dragomon; Vademon; MetalMamemon,45 | - | - | - | 120 | 120 | - | 20 | - | -,None
+Imperialdramon DM,Dinobeemon; Paildramon; Imperialdramon FM,55 | - | 150 | 1600 | - | - | 150 | 20 | - | -,Imperialdramon FM; Imperialdramon PM
+Imperialdramon FM,Imperialdramon DM,- | - | - | - | - | - | - | - | - | Mode Change,Imperialdramon DM
+Vikemon,Groundramon; Shakkoumon; Zudomon; ShogunGekomon,50 | 130 | 130 | 1700 | 120 | - | - | 20 | - | -,None
+Valkyrimon,Angewomon; Silphymon; SaviorHuckmon; MagnaAngemon,50 | 130 | - | - | 130 | - | 160 | 20 | - | -,None
+Varodurumon,Garudamon; HippoGryphonmon; Crowmon,55 | - | - | - | 145 | 120 | 130 | 40 | - | -,Chaosmon VA
+VenomMyotismon,Infermon; Myotismon; Phantomon; Matadormon; Wisemon,55 | 110 | - | 1200 | 110 | 110 | - | 40 | - | -,None
+WarGreymon,Mamemon; MetalGreymon; MetalGreymon (Blue),55 | 160 | 130 | 1700 | - | - | - | 20 | 80 % | -,Omnimon
+Ophanimon,Angewomon; Piximon,55 | - | 120 | - | 145 | 120 | - | 40 | - | -,None
+Gaiomon,MetalGreymon; MetalGreymon (Blue); RizeGreymon; Hisyaryumon,50 | 120 | 100 | - | - | - | 100 | 20 | - | -,None
+KaiserGreymon,BurningGreymon,55 | 150 | 120 | 1500 | - | - | - | 20 | 80 % | -,Susanomon
+ChaosGallantmon,Shakkoumon; WarGrowlmon,60 | 130 | 130 | - | 130 | - | - | 40 | - | -,None
+Chaosdramon,Machinedramon,50 | 130 | 120 | 1500 | - | - | - | 20 | - | -,None
+Gankoomon,SuperStarmon; SkullMeramon; Volcanomon,60 | 145 | 120 | 1700 | - | - | - | 80 | - | -,None
+KingEtemon,Etemon; ShogunGekomon; Pandamon,45 | 110 | 130 | - | - | - | 100 | 20 | - | -,None
+Kuzuhamon,Cherrymon; Taomon; Crowmon,55 | - | - | - | 135 | 120 | 120 | 20 | - | -,None
+GranKuwagamon,MegaKabuterimon; Okuwamon; Cherrymon; Dinobeemon; Triceramon,45 | 120 | 120 | 1500 | - | - | - | 20 | - | -,None
+GranDracmon,Myotismon; SkullSatamon; Matadormon,50 | 110 | - | 1300 | 110 | - | - | 40 | - | -,None
+GroundLocomon,Gigadramon; CannonBeemon; Datamon,50 | - | 160 | - | - | 120 | - | 20 | - | -,None
+Gryphonmon,Garudamon; Silphymon; HippoGryphonmon,50 | - | - | - | 140 | 110 | - | 20 | - | -,None
+Craniamon,Andromon; Knightmon,60 | - | 180 | - | 140 | 110 | - | 80 | - | -,None
+Kerpymon (Blk),Antylamon; MetalGreymon (Blue),55 | - | - | 1100 | 100 | 100 | - | 40 | - | -,None
+Kerpymon (Good),Antylamon; Crescemon; Shakkoumon,55 | - | - | - | 145 | 120 | 100 | 40 | - | -,None
+Goldramon,AeroVeedramon; MagnaAngemon; Megadramon; Hisyaryumon,55 | 130 | 120 | - | 120 | - | - | 40 | - | -,None
+SaberLeomon,GrapLeomon; Triceramon; Panjyamon; Monzaemon,50 | 145 | - | - | - | - | 120 | 20 | - | -,None
+Sakuyamon,Silphymon; Taomon; Monzaemon,55 | - | - | - | 120 | 120 | 120 | 20 | - | -,None
+Jesmon,SaviorHuckmon; Duramon,60 | 180 | - | - | - | - | 180 | 80 | 80 % | -,None
+ShineGreymon,SkullGreymon; MagnaAngemon; RizeGreymon,55 | 140 | - | - | - | - | 130 | 20 | 80 % | -,ShineGreymon BM
+ShineGreymon BM,ShineGreymon,60 | 250 | - | 2000 | - | - | - | 30 | 100 % | -,None
+Justimon,Garudamon; CatchMamemon; Cyberdramon; SuperStarmon; Pandamon,50 | 130 | 110 | 1000 | - | - | - | - | 80 % | -,None
+Kentaurosmon,Crescemon; Chirinmon; DoruGreymon,60 | - | 140 | - | 120 | - | 150 | 80 | - | -,None
+Slayerdramon,Wingdramon; SaviorHuckmon; RizeGreymon,55 | 130 | - | 1300 | - | - | 130 | 20 | - | -,Examon
+Seraphimon,Chirinmon; HippoGryphonmon; MagnaAngemon,55 | - | 130 | - | 150 | 130 | - | 40 | - | -,None
+MegaGargomon,CannonBeemon; MachGaogamon; Rapidmon,50 | - | 130 | - | - | - | 130 | 20 | - | -,None
+Darkdramon,Gigadramon; BlueMeramon; WarGrowlmon,50 | 150 | 140 | - | - | - | - | 20 | - | -,Chaosmon
+TigerVespamon,Andromon; CannonBeemon; Grademon; Duramon; Rapidmon,50 | 120 | - | 1000 | - | - | 130 | 20 | - | -,None
+Titamon,Cyberdramon; SkullGreymon; Digitamamon; Phantomon,55 | 150 | - | 1400 | 120 | - | - | 20 | - | -,None
+TyrantKabuterimon,HerculesKabuterimon,55 | 140 | 130 | 1600 | - | - | - | 40 | - | -,None
+Dianamon,Antylamon; Meteormon; Crescemon; Taomon,55 | - | 120 | - | 130 | - | 130 | 20 | - | -,None
+Diaboromon,Arcadiamon Ultimate; Antylamon; Infermon; Okuwamon; SkullSatamon,55 | 180 | - | 1100 | - | - | 130 | 20 | - | -,Armageddemon
+Creepymon,Arcadiamon Ultimate; SkullGreymon; SkullSatamon; BlueMeramon,60 | 230 | - | 1600 | 160 | - | - | 80 | - | -,None
+Gallantmon,WarGrowlmon; MetalTyrannomon,60 | 140 | 140 | - | 140 | - | - | 80 | 50 % | -,Gallantmon CM
+Dynasmon,Wingdramon; AeroVeedramon; Silphymon,60 | 140 | 120 | 1200 | - | - | 130 | 80 | - | -,None
+Durandamon,Grademon; Duramon; Knightmon,60 | 140 | 120 | 1500 | - | - | - | 20 | - | -,None
+Leopardmon,GrapLeomon; Knightmon; Leopardmon LM,60 | - | - | - | 120 | 100 | 140 | 80 | - | -,Leopardmon LM
+Leopardmon LM,Leopardmon,- | - | - | - | - | - | - | - | - | Mode Change,Leopardmon
+Dorugoramon,Gigadramon; Grademon; DoruGreymon,50 | 160 | - | 1600 | - | - | - | 20 | - | -,None
+Neptunemon,Dragomon; Whamon; MegaSeadramon,55 | - | - | 1000 | 130 | - | - | 20 | - | -,None
+HiAndromon,Andromon; Vademon; MetalMamemon,55 | 100 | 130 | - | 100 | - | - | 20 | - | -,None
+PileVolcamon,Etemon; GrapLeomon; Volcanomon,50 | 120 | 135 | - | - | - | - | 20 | - | -,None
+Barbamon,Myotismon; Phantomon; BlueMeramon,60 | - | 120 | - | 200 | 160 | - | 80 | - | -,None
+BanchoLeomon,GrapLeomon; Panjyamon; Pandamon; MachGaogamon; WereGarurumon (Blk),55 | 120 | 130 | - | - | - | - | 20 | - | -,Chaosmon; Chaosmon VA
+Piedmon,Myotismon; Etemon; Matadormon; Wisemon,50 | 130 | - | - | 160 | - | 110 | 20 | - | -,Apocalymon
+Puppetmon,CatchMamemon; Cherrymon; Pumpkinmon; Mamemon,50 | 130 | 130 | - | 130 | - | - | 20 | - | -,Apocalymon
+PlatinumNumemon,GoldNumemon; Etemon; SuperStarmon; BlackKingNumemon,65 | - | - | - | - | - | - | 10 | - | -,None
+BlackWarGreymon,Megadramon; MetalGreymon (Blue); MetalTyrannomon,55 | 140 | 140 | 1800 | - | - | - | 20 | - | -,Omnimon Zwart
+PrinceMamemon,CatchMamemon; BlackKingNumemon; Mamemon; MetalMamemon,45 | - | 150 | - | - | - | - | 20 | - | -,None
+Brakedramon,Groundramon; Triceramon; DoruGreymon; MetalTyrannomon,55 | 160 | 140 | 1500 | - | - | - | 20 | - | -,Examon
+Plesiomon,Zudomon; ShogunGekomon; Whamon; MegaSeadramon,50 | - | 120 | - | 145 | 100 | - | 20 | - | -,None
+HerculesKabuterimon,MegaKabuterimon; Okuwamon; Vademon,50 | - | 150 | 1100 | 120 | - | - | 20 | - | -,TyrantKabuterimon
+Beelzemon,Infermon; SkullMeramon,60 | 250 | - | 2000 | - | - | 150 | 80 | - | -,Beelzemon BM
+Beelzemon BM,Beelzemon,80 | 300 | - | 2100 | - | - | 220 | 100 | 100 % | -,None
+Belphemon SM,Digitamamon; Wisemon; Belphemon RM,60 | - | - | 1700 | 180 | 140 | - | 80 | - | -,Belphemon RM
+Hououmon,Garudamon; Silphymon; Piximon,50 | - | - | - | 130 | - | 150 | 20 | - | -,None
+Magnadramon,MegaKabuterimon; Angewomon; Lillymon,55 | - | - | 900 | 145 | 120 | - | 20 | - | -,None
+Boltmon,SkullMeramon; Pumpkinmon; BlueMeramon,50 | 145 | 100 | - | - | - | - | 20 | - | -,None
+MagnaGarurumon,KendoGarurumon; MagnaGarurumon (SV),50 | 130 | - | - | - | - | 160 | 20 | 80 % | -,MagnaGarurumon (SV); Susanomon
+MagnaGarurumon (SV),MagnaGarurumon,- | - | - | - | - | - | - | - | - | Mode Change,MagnaGarurumon
+Mastemon,Angewomon; LadyDevimon,60 | 120 | - | - | 120 | 120 | - | 80 | 100 % | Angewomon, LadyDevimon,None
+MarineAngemon,Zudomon; Piximon; Whamon,50 | - | - | - | 135 | 110 | - | 20 | 50 % | -,None
+Minervamon,Digitamamon; Monzaemon; Crowmon; WereGarurumon (Blk); Hisyaryumon,55 | 150 | - | - | - | - | 140 | 20 | - | -,None
+MirageGaogamon,Panjyamon; MachGaogamon; WereGarurumon,55 | 120 | - | - | - | - | 130 | 20 | - | -,MirageGaogamon BM
+MirageGaogamon BM,MirageGaogamon,60 | 200 | - | - | - | - | 200 | 30 | 100 % | -,None
+Machinedramon,Gigadramon; Datamon; Megadramon,50 | 130 | 130 | 1300 | - | - | - | 20 | - | -,Chaosdramon; Apocalymon
+Megidramon,Gigadramon; Groundramon; Megadramon; WarGrowlmon,55 | 180 | - | 1700 | - | - | - | 40 | - | -,None
+MetalEtemon,Meteormon; Etemon; BlackKingNumemon; Volcanomon,45 | 120 | 140 | - | - | 100 | - | 20 | - | -,None
+MetalGarurumon,Zudomon; Chirinmon; WereGarurumon,55 | 130 | 120 | - | - | - | 150 | 20 | 80 % | -,Omnimon
+MetalGarurumon (Blk),Datamon; Rapidmon; WereGarurumon; WereGarurumon (Blk),55 | - | 135 | - | - | - | 125 | 20 | - | -,Omnimon Zwart
+MetalSeadramon,Gigadramon; Whamon; MegaSeadramon,50 | - | 120 | - | 120 | 120 | - | 20 | - | -,Apocalymon
+Merukimon,MachGaogamon; WereGarurumon (Blk),55 | 130 | - | - | 110 | - | 160 | 20 | - | -,None
+RustTyranomon,WarGrowlmon; MetalGreymon; MetalTyrannomon,55 | 180 | 150 | 1300 | - | - | - | 20 | - | -,None
+Leviamon,Dragomon; ShogunGekomon; MegaSeadramon,60 | 140 | 140 | 2000 | 140 | 140 | - | 80 | - | -,None
+Lilithmon,Lilamon; LadyDevimon,60 | - | - | - | 250 | 200 | 130 | 80 | - | -,None
+Ravemon,AeroVeedramon; Garudamon; Crowmon,55 | 130 | - | - | - | - | 160 | 20 | - | -,Ravemon BM
+Ravemon BM,Ravemon,60 | - | - | - | - | 160 | 250 | 30 | 100 % | -,None
+Crusadermon,Knightmon; MagnaAngemon,60 | 120 | - | - | 135 | - | 150 | 80 | 50 % | -,None
+Rosemon,Pumpkinmon; Lilamon; Lillymon,55 | - | - | - | 120 | 120 | - | 20 | - | -,Rosemon BM
+Rosemon BM,Rosemon,60 | - | - | - | 180 | 170 | - | 30 | 100 % | -,None
+Lotosmon,Lilamon; Lillymon; LadyDevimon,55 | - | - | - | 170 | - | 130 | 20 | - | -,None
+Armageddemon,Diaboromon,70 | 290 | - | 2000 | - | 140 | - | 100 | - | -,None
+Arcadiamon Ultra,Arcadiamon Mega,70 | 250 | - | - | 150 | 150 | 160 | 60 | - | Cleared "Hacker's Memory",None
+Alphamon Ouryuken,Alphamon; Ouryumon,60 | 180 | 170 | - | 150 | - | - | 80 | 100 % | Alphamon, Ouryumon,None
+Imperialdramon PM,Imperialdramon DM,70 | 160 | 160 | - | 160 | - | 160 | 100 | - | -,None
+Examon,Slayerdramon; Brakedramon,60 | 150 | - | 1650 | - | - | 150 | 100 | 100 % | Slayerdramon, Breakdramon,None
+Omnimon,WarGreymon; MetalGarurumon,60 | 200 | - | - | 150 | - | 150 | 40 | 100 % | WarGreymon, MetalGarurumon,None
+Omnimon Zwart,BlackWarGreymon; MetalGarurumon (Blk),60 | 150 | 200 | 1500 | - | - | - | 40 | 100 % | BlackWarGreymon, MetalGarurumon (Blk),None
+Chaosmon,Darkdramon; BanchoLeomon,60 | 255 | - | - | - | - | - | 40 | 100 % | Darkdramon, BanchoLeomon,None
+Chaosmon VA,Varodurumon; BanchoLeomon,60 | 155 | - | - | 100 | - | - | - | 100 % | Varodurumon, BanchoLeomon,None
+Susanomon,KaiserGreymon; MagnaGarurumon,60 | 150 | - | 1000 | 150 | - | - | 100 | 100 % | KaiserGreymon, MagnaGarurumon,None
+Gallantmon CM,Gallantmon,80 | 185 | 185 | - | - | - | - | 80 | 100 % | -,None
+Belphemon RM,Belphemon SM,- | - | - | - | - | - | - | - | - | Mode Change,Belphemon SM
+Lucemon SM,Lucemon FM,70 | 130 | - | 1400 | 250 | 160 | 170 | 100 | - | -,None
+Flamedramon,Veemon,14 | 40 | - | - | - | - | 40 | - | 25 % | Digi-Egg of Courage,None
+Magnamon,Veemon; Guardromon (Gold),60 | 120 | 145 | - | - | - | - | 80 | 50 % | Digi-Egg of Miracles,None
+Rapidmon (Armor),Terriermon; Guardromon (Gold),50 | 100 | - | - | 120 | - | - | 40 | 50 % | Digi-Egg of Destiny,None
+Shoutmon,Koromon,8 | 30 | - | - | - | - | 20 | - | 10 % | -,OmniShoutmon
+OmniShoutmon,Shoutmon,60 | 130 | 130 | - | - | - | 120 | 80 | - | -,None
+Ryudamon,Wanyamon,8 | 30 | 30 | - | - | - | - | - | - | -,Raptordramon; Reppamon; Ginryumon
+Ginryumon,Zubamon; Dracomon; Ryudamon,14 | 40 | 40 | - | - | - | - | - | - | -,CannonBeemon; MegaSeadramon; Hisyaryumon
+Hisyaryumon,Seadramon; Coelamon; Ginryumon,30 | 95 | 75 | 400 | - | - | - | - | - | -,Gaiomon; Goldramon; Minervamon; Ouryumon
+Ouryumon,Grademon; Crowmon; Hisyaryumon,50 | 180 | - | 1300 | - | - | - | 20 | - | -,Alphamon Ouryuken
+Apocalymon,Piedmon; Puppetmon; Machinedramon; MetalSeadramon,99 | - | - | - | - | - | - | 120 | - | -,None
+Sistermon Blanc,Tokomon,7 | - | - | - | 30 | 20 | - | - | 50 % | DLC required,Gargomon; Lekismon; Sistermon B (Awake.); Sistermon Ciel
+Sistermon B (Awake.),Sistermon Blanc,60 | - | - | 1150 | 150 | 130 | - | 50 | - | DLC required,None
+Sistermon Ciel,Dracmon; Lunamon; Sistermon Blanc,14 | - | - | - | - | - | 50 | - | 10 % | DLC required,Pandamon; LadyDevimon; Sistermon C (Awake.)
+Sistermon C (Awake.),Sistermon Ciel,60 | 130 | - | 1150 | - | - | 150 | 50 | - | DLC required,None
+Alphamon NX,None,- | - | - | - | - | - | - | - | - | NX DLC required,None
+Crusadermon NX,None,- | - | - | - | - | - | - | - | - | NX DLC required,None
+Leopardmon NX,None,- | - | - | - | - | - | - | - | - | NX DLC required,None
+Omnimon NX,None,- | - | - | - | - | - | - | - | - | NX DLC required,None
+Gallantmon NX,None,- | - | - | - | - | - | - | - | - | NX DLC required,None

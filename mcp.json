@@ -1,0 +1,53 @@
+{
+  "resources": [
+    {
+      "id": "doc-readme",
+      "type": "documentation",
+      "name": "README.md",
+      "path": "README.md",
+      "description": "Project overview and file purposes for DigimonScraper."
+    },
+    {
+      "id": "doc-html-readme",
+      "type": "documentation",
+      "name": "readme_html.md",
+      "path": "readme_html.md",
+      "description": "Documentation for test copy.html, its components, and technical details."
+    },
+    {
+      "id": "data-digimon",
+      "type": "data",
+      "name": "digimon_data.csv",
+      "path": "digimon_data.csv",
+      "description": "Main Digimon data: names, attributes, elements."
+    },
+    {
+      "id": "data-evolutions",
+      "type": "data",
+      "name": "digimon_evolutions.csv",
+      "path": "digimon_evolutions.csv",
+      "description": "Digimon evolutions and previous forms."
+    },
+    {
+      "id": "data-moves",
+      "type": "data",
+      "name": "digimon_moves.csv",
+      "path": "digimon_moves.csv",
+      "description": "Digimon moves, attacks, and movesets by level."
+    },
+    {
+      "id": "web-moves-table",
+      "type": "web",
+      "name": "Grindosaur Digimon Moves Table",
+      "url": "https://www.grindosaur.com/en/games/digimon-story-cyber-sleuth/moves",
+      "description": "Online table of Digimon moves with icon, name, attribute, type, SP cost, power, and inheritable info."
+    },
+    {
+    "id": "doc-moves-learning",
+    "type": "documentation",
+    "name": "README_Digimon_Moves_Learning.md",
+    "path": "README_Digimon_Moves_Learning.md",
+    "description": "Detailed process for enriching digimon_moves.csv using Puppeteer MCP server and grindosaur.com."
+    }
+  ]
+}

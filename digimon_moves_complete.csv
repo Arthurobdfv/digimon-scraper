@@ -1,0 +1,504 @@
+Move,Icon,Attribute,Type,SP Cost,Power,Inheritable
+Acceleration Boost,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Adhesive Bubble Blow,Icons/Moves/plant-icon.png,Plant,Physical,2,25,No
+Agility Charge,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Aguichant Lèvres,Icons/Moves/light-icon.png,Light,Magic,40,0,No
+Air Bubbles,Icons/Moves/water-icon.png,Water,Magic,2,30,No
+Air Shot,Icons/Moves/wind-icon.png,Wind,Magic,5,50,No
+Ambush Crunch,Icons/Moves/neutral-icon.png,Neutral,Physical,10,90,No
+Amethyst Mandala,Icons/Moves/light-icon.png,Light,Magic,20,70,No
+Animal Nail,Icons/Moves/earth-icon.png,Earth,Physical,15,115,No
+Anti-Bug,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Anti-Panic,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Anti-Paralysis,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Anti-Poison,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Anti-Sleep,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Anti-Stun,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Antidote,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Arctic Blizzard,Icons/Moves/water-icon.png,Water,Physical,20,125,No
+Atomic Blaster,Icons/Moves/electric-icon.png,Electric,Physical,15,250,No
+Atomic Ray,Icons/Moves/electric-icon.png,Electric,Physical,20,125,No
+Attack Break,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Attack Break Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Attack Charge,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Attack Charge Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Aura,Icons/Moves/support-icon.png,Neutral,Support,10,0,No
+Aurora Blaster,Icons/Moves/light-icon.png,Light,Magic,25,120,No
+Aurora Undulation,Icons/Moves/light-icon.png,Light,Magic,20,80,No
+Awesome Quake I,Icons/Moves/earth-icon.png,Earth,Physical,4,30,No
+Awesome Quake II,Icons/Moves/earth-icon.png,Earth,Physical,7,45,No
+Awesome Quake III,Icons/Moves/earth-icon.png,Earth,Physical,10,75,No
+Baby Breath,Icons/Moves/fire-icon.png,Fire,Physical,5,75,No
+Banana Slip,Icons/Moves/dark-icon.png,Dark,Magic,20,115,No
+Bantyo Blade,Icons/Moves/neutral-icon.png,Neutral,Physical,20,150,No
+Berserk Sword,Icons/Moves/neutral-icon.png,Neutral,Direct,15,0,No
+Bifrost,Icons/Moves/light-icon.png,Light,Magic,25,120,No
+Big Bang Voice,Icons/Moves/neutral-icon.png,Neutral,Physical,30,0,No
+Bit Fire,Icons/Moves/fire-icon.png,Fire,Physical,10,30,No
+Bite,Icons/Moves/neutral-icon.png,Neutral,Physical,2,40,No
+Biting Crush,Icons/Moves/water-icon.png,Water,Physical,25,145,No
+Black Aura Blast,Icons/Moves/dark-icon.png,Dark,Magic,25,110,No
+Black Aura Blast,Icons/Moves/dark-icon.png,Dark,Magic,25,110,No
+Black Pearl Blast,Icons/Moves/water-icon.png,Water,Magic,5,25,No
+Black Rain,Icons/Moves/dark-icon.png,Dark,Physical,25,110,No
+Black Tornado,Icons/Moves/dark-icon.png,Dark,Physical,35,0,No
+Blade of the Dragon King,Icons/Moves/light-icon.png,Light,Physical,25,150,No
+Blade of the Dragon King,Icons/Moves/light-icon.png,Light,Physical,25,120,No
+Blaze Sonic Breath,Icons/Moves/fire-icon.png,Fire,Physical,15,100,No
+Blazing Ice,Icons/Moves/water-icon.png,Water,Magic,5,60,No
+Blinded,Icons/Moves/neutral-icon.png,Neutral,Physical,15,115,No
+Blinding Ray,Icons/Moves/light-icon.png,Light,Magic,5,65,No
+Blue Blaster,Icons/Moves/fire-icon.png,Fire,Physical,5,65,No
+Blue Flare Breath,Icons/Moves/fire-icon.png,Fire,Physical,10,85,No
+Brain Rupture,Icons/Moves/electric-icon.png,Electric,Magic,20,115,No
+Branch Drain,Icons/Moves/plant-icon.png,Plant,Physical,10,75,No
+Brave Metal,Icons/Moves/dark-icon.png,Dark,Physical,20,200,No
+Breath of the Gods,Icons/Moves/support-enhancement-icon.png,Neutral,Support,10,0,No
+Bubble Blow,Icons/Moves/water-icon.png,Water,Magic,2,30,No
+Bubbles,Icons/Moves/water-icon.png,Water,Magic,2,30,No
+Bunny Blades,Icons/Moves/wind-icon.png,Wind,Physical,15,55,No
+Burning Fist,Icons/Moves/fire-icon.png,Fire,Physical,10,80,No
+Burst Flame I,Icons/Moves/fire-icon.png,Fire,Magic,3,55,No
+Burst Flame II,Icons/Moves/fire-icon.png,Fire,Magic,6,75,No
+Burst Flame III,Icons/Moves/fire-icon.png,Fire,Magic,9,95,No
+Burst Shot,Icons/Moves/fire-icon.png,Fire,Physical,20,50,No
+Catastrophe Cannon,Icons/Moves/fire-icon.png,Fire,Physical,20,80,No
+Celestial Arrow,Icons/Moves/light-icon.png,Light,Magic,15,100,No
+Celestial Blade,Icons/Moves/electric-icon.png,Electric,Magic,20,90,No
+Celestial Blade,Icons/Moves/light-icon.png,Light,Physical,30,110,No
+Chain Loss,Icons/Moves/support-enhancement-icon.png,Neutral,Support,8,0,No
+Chain Max,Icons/Moves/support-enhancement-icon.png,Neutral,Support,8,0,No
+Chain Minus,Icons/Moves/support-enhancement-icon.png,Neutral,Support,4,0,No
+Chain Plus,Icons/Moves/support-enhancement-icon.png,Neutral,Support,4,0,No
+Chaos Degradation,Icons/Moves/neutral-icon.png,Neutral,Direct,25,0,No
+Character Reversal,Icons/Moves/neutral-icon.png,Neutral,Magic,10,30,No
+Cheese Bomb,Icons/Moves/fire-icon.png,Fire,Physical,5,70,No
+Cherry Bomb,Icons/Moves/plant-icon.png,Plant,Physical,15,65,No
+Chrono Breaker,Icons/Moves/neutral-icon.png,Neutral,Fixed,10,0,No
+Cog Crusher,Icons/Moves/dark-icon.png,Dark,Physical,5,70,No
+Cold Flame,Icons/Moves/fire-icon.png,Fire,Physical,15,100,No
+Comet Hammer I,Icons/Moves/earth-icon.png,Earth,Physical,3,65,No
+Comet Hammer II,Icons/Moves/earth-icon.png,Earth,Physical,6,85,No
+Comet Hammer III,Icons/Moves/earth-icon.png,Earth,Physical,9,105,No
+Corona Blaster,Icons/Moves/fire-icon.png,Fire,Physical,15,30,No
+Corona Destroyer,Icons/Moves/dark-icon.png,Dark,Physical,40,0,No
+Crazy Giggle,Icons/Moves/dark-icon.png,Dark,Physical,5,75,No
+Crescent Leaf I,Icons/Moves/plant-icon.png,Plant,Physical,3,65,No
+Crescent Leaf II,Icons/Moves/plant-icon.png,Plant,Physical,6,85,No
+Crescent Leaf III,Icons/Moves/plant-icon.png,Plant,Physical,9,105,No
+Crimson Curse,Icons/Moves/fire-icon.png,Fire,Physical,10,45,No
+Critical Charge,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Cross Blade,Icons/Moves/light-icon.png,Light,Physical,15,110,No
+Cross-Counter,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Crystal Cloud,Icons/Moves/water-icon.png,Water,Magic,10,30,No
+Crystal Revolution,Icons/Moves/water-icon.png,Water,Magic,25,90,No
+D-Grenade,Icons/Moves/fire-icon.png,Fire,Physical,10,40,No
+Dark Prominence,Icons/Moves/dark-icon.png,Dark,Magic,40,0,No
+Dark Pupil,Icons/Moves/dark-icon.png,Dark,Physical,15,110,No
+Dark Roar,Icons/Moves/dark-icon.png,Dark,Physical,15,130,No
+Dark Terra Force,Icons/Moves/dark-icon.png,Dark,Physical,20,100,No
+Darkness Wave,Icons/Moves/dark-icon.png,Dark,Magic,15,35,No
+Darkness Zone,Icons/Moves/neutral-icon.png,Neutral,Fixed,40,0,No
+Data Crusher,Icons/Moves/dark-icon.png,Dark,Physical,10,90,No
+Data Drain,Icons/Moves/dark-icon.png,Dark,Physical,5,35,No
+Dead or Alive,Icons/Moves/neutral-icon.png,Neutral,Magic,25,130,No
+Death Charm,Icons/Moves/neutral-icon.png,Neutral,Direct,10,0,No
+Death Claw,Icons/Moves/neutral-icon.png,Neutral,Fixed,10,0,No
+Death Parade Blaster,Icons/Moves/light-icon.png,Light,Physical,15,40,No
+Demi Darts,Icons/Moves/dark-icon.png,Dark,Physical,5,20,No
+Demonic Disaster,Icons/Moves/dark-icon.png,Dark,Physical,25,140,No
+Desolation Claw,Icons/Moves/neutral-icon.png,Neutral,Physical,15,115,No
+Destroyed Hook,Icons/Moves/electric-icon.png,Electric,Physical,35,0,No
+Destroyed Rush,Icons/Moves/earth-icon.png,Earth,Physical,20,25,No
+Destruction,Icons/Moves/dark-icon.png,Dark,Physical,10,40,No
+Destruction Cannon I,Icons/Moves/dark-icon.png,Dark,Physical,3,65,No
+Destruction Cannon II,Icons/Moves/dark-icon.png,Dark,Physical,6,85,No
+Destruction Cannon III,Icons/Moves/dark-icon.png,Dark,Physical,9,105,No
+Destruction Crush,Icons/Moves/earth-icon.png,Earth,Magic,20,80,No
+Diamond Shell,Icons/Moves/earth-icon.png,Earth,Physical,5,60,No
+Diamond Storm,Icons/Moves/plant-icon.png,Plant,Magic,5,25,No
+Digital Bomb,Icons/Moves/fire-icon.png,Fire,Magic,15,80,No
+Dimension Scissor,Icons/Moves/plant-icon.png,Plant,Physical,35,0,No
+Disaster Blaster,Icons/Moves/light-icon.png,Light,Magic,15,65,No
+Dispel,Icons/Moves/support-icon.png,Neutral,Support,25,0,No
+Divine Atonement,Icons/Moves/light-icon.png,Light,Magic,50,200,No
+Divine Dragon Slash,Icons/Moves/neutral-icon.png,Neutral,Physical,35,0,No
+Divine Pierce,Icons/Moves/light-icon.png,Light,Magic,5,65,No
+Divine Pierce (Awake),Icons/Moves/light-icon.png,Light,Magic,20,90,No
+Dot Matrix,Icons/Moves/neutral-icon.png,Neutral,Physical,35,0,No
+Double Backhand,Icons/Moves/neutral-icon.png,Neutral,Physical,5,20,No
+Double Impact,Icons/Moves/dark-icon.png,Dark,Physical,25,20,No
+Double Scissor Claw,Icons/Moves/neutral-icon.png,Neutral,Physical,30,0,No
+Dragon Impulse,Icons/Moves/wind-icon.png,Wind,Physical,15,250,No
+Dragon's Roar,Icons/Moves/fire-icon.png,Fire,Physical,25,60,No
+Dragonic Impact,Icons/Moves/fire-icon.png,Fire,Physical,50,100,No
+Dumdum Uppercut,Icons/Moves/neutral-icon.png,Neutral,Physical,10,90,No
+Earth-Shattering Stomp,Icons/Moves/dark-icon.png,Dark,Physical,15,30,No
+Eden's Javelin,Icons/Moves/light-icon.png,Light,Magic,20,120,No
+Eiseiryuoujin,Icons/Moves/electric-icon.png,Electric,Physical,35,0,No
+Elastic Bubbles,Icons/Moves/water-icon.png,Water,Magic,2,30,No
+Electric Shock,Icons/Moves/electric-icon.png,Electric,Magic,5,55,No
+Electric Stun Blast,Icons/Moves/electric-icon.png,Electric,Physical,5,65,No
+Electro Shocker,Icons/Moves/electric-icon.png,Electric,Magic,10,80,No
+Energy Bomb,Icons/Moves/electric-icon.png,Electric,Magic,15,100,No
+Escape Dash,Icons/Moves/support-enhancement-icon.png,Neutral,Support,0,0,No
+Eternal Nightmare,Icons/Moves/dark-icon.png,Dark,Magic,50,0,No
+Exhaust Flame,Icons/Moves/fire-icon.png,Fire,Physical,10,85,No
+Extinction Wave,Icons/Moves/light-icon.png,Light,Magic,25,80,No
+Extinction Wave,Icons/Moves/light-icon.png,Light,Magic,25,80,No
+Eye of Nightmares,Icons/Moves/dark-icon.png,Dark,Magic,5,50,No
+Eye of the Gorgon,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Fang Strike,Icons/Moves/fire-icon.png,Fire,Physical,10,90,No
+Feather Slash,Icons/Moves/wind-icon.png,Wind,Physical,10,0,No
+Fenrir Sword,Icons/Moves/water-icon.png,Water,Physical,15,130,No
+Fiery Fastball,Icons/Moves/fire-icon.png,Fire,Physical,5,70,No
+Fif Cross,Icons/Moves/earth-icon.png,Earth,Physical,10,55,No
+Fifth Rush,Icons/Moves/earth-icon.png,Earth,Physical,5,20,No
+Final Aura,Icons/Moves/support-icon.png,Neutral,Support,40,0,No
+Final Heal,Icons/Moves/support-icon.png,Neutral,Support,16,0,No
+Final Shining Burst,Icons/Moves/fire-icon.png,Fire,Physical,50,200,No
+Fire Breath,Icons/Moves/fire-icon.png,Fire,Physical,10,90,No
+Fire Tornado,Icons/Moves/light-icon.png,Light,Magic,20,95,No
+Firedrake Strike,Icons/Moves/fire-icon.png,Fire,Physical,25,140,No
+Fist of Athena,Icons/Moves/fire-icon.png,Fire,Physical,40,0,No
+Fist of Athena,Icons/Moves/fire-icon.png,Fire,Physical,40,0,No
+Fist of Ice,Icons/Moves/water-icon.png,Water,Physical,15,110,No
+Fist of the Beast King,Icons/Moves/earth-icon.png,Earth,Physical,10,95,No
+Flame Cannon,Icons/Moves/fire-icon.png,Fire,Physical,20,100,No
+Flame Inferno,Icons/Moves/fire-icon.png,Fire,Magic,25,90,No
+Flaming Fist,Icons/Moves/fire-icon.png,Fire,Physical,10,70,No
+Flashy Boss Punch,Icons/Moves/light-icon.png,Light,Physical,20,130,No
+Flower Cannon,Icons/Moves/plant-icon.png,Plant,Magic,15,105,No
+Flying Kick,Icons/Moves/plant-icon.png,Plant,Physical,10,95,No
+Forbidden Trident,Icons/Moves/water-icon.png,Water,Physical,15,115,No
+Fossil Bite,Icons/Moves/water-icon.png,Water,Physical,10,30,No
+Fox Fire,Icons/Moves/fire-icon.png,Fire,Physical,10,85,No
+Fox Tail,Icons/Moves/light-icon.png,Light,Physical,2,35,No
+Freeze Fang,Icons/Moves/water-icon.png,Water,Physical,10,85,No
+Freezing Breath,Icons/Moves/water-icon.png,Water,Magic,20,120,No
+Frozen Claw,Icons/Moves/water-icon.png,Water,Physical,20,0,No
+Full Moon Blaster,Icons/Moves/light-icon.png,Light,Physical,20,135,No
+Full Moon Kick,Icons/Moves/earth-icon.png,Earth,Physical,15,110,No
+Full Moon Meteor Impact,Icons/Moves/light-icon.png,Light,Physical,20,120,No
+Fungus Crusher,Icons/Moves/plant-icon.png,Plant,Physical,10,60,No
+Fury Fire,Icons/Moves/light-icon.png,Light,Physical,10,40,No
+Fury Fire (Awake),Icons/Moves/light-icon.png,Light,Physical,20,60,No
+Gaia Element I,Icons/Moves/plant-icon.png,Plant,Magic,3,55,No
+Gaia Element II,Icons/Moves/plant-icon.png,Plant,Magic,6,75,No
+Gaia Element III,Icons/Moves/plant-icon.png,Plant,Magic,9,95,No
+Galactic Flare,Icons/Moves/neutral-icon.png,Neutral,Magic,15,55,No
+Gale Storm I,Icons/Moves/wind-icon.png,Wind,Physical,4,30,No
+Gale Storm II,Icons/Moves/wind-icon.png,Wind,Physical,7,45,No
+Gale Storm III,Icons/Moves/wind-icon.png,Wind,Physical,10,75,No
+Garuru Tomahawk,Icons/Moves/neutral-icon.png,Neutral,Physical,20,140,No
+Gear Stringer,Icons/Moves/electric-icon.png,Electric,Physical,5,25,No
+Genocidal Gears,Icons/Moves/fire-icon.png,Fire,Physical,15,60,No
+Genocide Attack,Icons/Moves/fire-icon.png,Fire,Physical,15,110,No
+GeoGrey Sword,Icons/Moves/fire-icon.png,Fire,Physical,20,130,No
+Gift of Darkness,Icons/Moves/dark-icon.png,Dark,Physical,40,0,No
+Giga Blaster,Icons/Moves/electric-icon.png,Electric,Magic,20,130,No
+Giga Destroyer,Icons/Moves/fire-icon.png,Fire,Physical,15,115,No
+Glare Eye,Icons/Moves/dark-icon.png,Dark,Magic,2,30,No
+Glide Horn,Icons/Moves/wind-icon.png,Wind,Physical,10,85,No
+Goblin Strike,Icons/Moves/fire-icon.png,Fire,Physical,5,65,No
+God Flame,Icons/Moves/light-icon.png,Light,Physical,20,100,No
+God Matrix,Icons/Moves/neutral-icon.png,Neutral,Physical,50,0,No
+Golden Rush,Icons/Moves/light-icon.png,Light,Physical,10,10,No
+Golden Triangle,Icons/Moves/light-icon.png,Light,Magic,20,110,No
+Good Night Moon,Icons/Moves/light-icon.png,Light,Magic,20,120,No
+Grand Cross,Icons/Moves/light-icon.png,Light,Physical,30,0,No
+Grand Rock I,Icons/Moves/earth-icon.png,Earth,Magic,3,55,No
+Grand Rock II,Icons/Moves/earth-icon.png,Earth,Magic,6,75,No
+Grand Rock III,Icons/Moves/earth-icon.png,Earth,Magic,9,95,No
+Great Tornado,Icons/Moves/neutral-icon.png,Neutral,Physical,35,0,No
+Great Weight,Icons/Moves/earth-icon.png,Earth,Physical,10,85,No
+Green Flare Breath,Icons/Moves/fire-icon.png,Fire,Physical,20,0,No
+Guard Break,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Guard Break Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Guard Charge,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Guard Charge Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Hard Rock Spirit,Icons/Moves/fire-icon.png,Fire,Physical,20,65,No
+Harpoon Torpedo,Icons/Moves/fire-icon.png,Fire,Physical,10,90,No
+Heal,Icons/Moves/support-icon.png,Neutral,Support,4,0,No
+Hearts Attack,Icons/Moves/support-icon.png,Neutral,Support,20,0,No
+Heat Wave,Icons/Moves/fire-icon.png,Fire,Magic,15,75,No
+Heaven's Gate,Icons/Moves/light-icon.png,Light,Magic,15,100,No
+Heaven's Judgment,Icons/Moves/light-icon.png,Light,Magic,20,90,No
+Heaven's Knuckle,Icons/Moves/light-icon.png,Light,Physical,10,80,No
+Heaven's Thunder,Icons/Moves/electric-icon.png,Electric,Magic,25,20,No
+Heaven's Thunder I,Icons/Moves/electric-icon.png,Electric,Magic,3,55,No
+Heaven's Thunder II,Icons/Moves/electric-icon.png,Electric,Magic,6,75,No
+Heaven's Thunder III,Icons/Moves/electric-icon.png,Electric,Magic,9,95,No
+Heavy Metal Fire,Icons/Moves/fire-icon.png,Fire,Physical,15,110,No
+Heavy Strike I,Icons/Moves/neutral-icon.png,Neutral,Physical,3,70,No
+Heavy Strike II,Icons/Moves/neutral-icon.png,Neutral,Physical,6,90,No
+Heavy Strike III,Icons/Moves/neutral-icon.png,Neutral,Physical,9,110,No
+Hell Crusher I,Icons/Moves/dark-icon.png,Dark,Magic,4,20,No
+Hell Crusher II,Icons/Moves/dark-icon.png,Dark,Magic,7,35,No
+Hell Crusher III,Icons/Moves/dark-icon.png,Dark,Magic,10,65,No
+Hell Masquerade,Icons/Moves/plant-icon.png,Plant,Physical,15,35,No
+Hit Charge,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Holy Light I,Icons/Moves/light-icon.png,Light,Magic,3,55,No
+Holy Light II,Icons/Moves/light-icon.png,Light,Magic,6,75,No
+Holy Light III,Icons/Moves/light-icon.png,Light,Magic,9,95,No
+Holy Shot,Icons/Moves/light-icon.png,Light,Magic,10,75,No
+Horn Buster,Icons/Moves/electric-icon.png,Electric,Magic,30,0,No
+Howling Crusher,Icons/Moves/earth-icon.png,Earth,Physical,20,65,No
+Hydro Water I,Icons/Moves/water-icon.png,Water,Magic,3,55,No
+Hydro Water II,Icons/Moves/water-icon.png,Water,Magic,6,75,No
+Hydro Water III,Icons/Moves/water-icon.png,Water,Magic,9,95,No
+Hyper Cannon,Icons/Moves/fire-icon.png,Fire,Physical,10,200,No
+Hyper Heat,Icons/Moves/fire-icon.png,Fire,Physical,10,85,No
+Hyper Infinity Cannon,Icons/Moves/electric-icon.png,Electric,Physical,25,115,No
+Hyper Smell,Icons/Moves/earth-icon.png,Earth,Physical,10,70,No
+Ice Archery I,Icons/Moves/water-icon.png,Water,Physical,3,65,No
+Ice Archery II,Icons/Moves/water-icon.png,Water,Physical,6,85,No
+Ice Archery III,Icons/Moves/water-icon.png,Water,Physical,9,105,No
+Ice Blast,Icons/Moves/water-icon.png,Water,Magic,10,75,No
+Ice Wolf Claw,Icons/Moves/water-icon.png,Water,Physical,20,45,No
+Iceball Bomb,Icons/Moves/water-icon.png,Water,Physical,10,80,No
+Idle Bubble,Icons/Moves/water-icon.png,Water,Magic,10,30,No
+Infinity Cannon,Icons/Moves/electric-icon.png,Electric,Physical,20,115,No
+Infinity Dream,Icons/Moves/support-enhancement-icon.png,Neutral,Support,30,0,No
+Judecca Prison,Icons/Moves/dark-icon.png,Dark,Magic,25,115,No
+Judgement of the Blade,Icons/Moves/neutral-icon.png,Neutral,Physical,25,30,No
+Justice Kick,Icons/Moves/neutral-icon.png,Neutral,Physical,20,130,No
+Katana Attack,Icons/Moves/neutral-icon.png,Neutral,Physical,10,0,No
+Knuckle Beater,Icons/Moves/neutral-icon.png,Neutral,Physical,5,75,No
+Kunai Wing,Icons/Moves/wind-icon.png,Wind,Physical,10,30,No
+Legendary Dragon Blade,Icons/Moves/earth-icon.png,Earth,Physical,30,0,No
+Lightning Javelin,Icons/Moves/electric-icon.png,Electric,Magic,15,105,No
+Lightning Joust,Icons/Moves/light-icon.png,Light,Physical,25,140,No
+Lightning Joust,Icons/Moves/light-icon.png,Light,Physical,25,135,No
+Lightning Paw,Icons/Moves/neutral-icon.png,Neutral,Fixed,10,0,No
+Lightning Spear,Icons/Moves/electric-icon.png,Electric,Magic,40,0,No
+Lila Shower,Icons/Moves/plant-icon.png,Plant,Magic,15,60,No
+Little Horn,Icons/Moves/neutral-icon.png,Neutral,Physical,5,70,No
+Love Serenade,Icons/Moves/dark-icon.png,Dark,Magic,30,0,No
+Lullaby Bubble,Icons/Moves/water-icon.png,Water,Magic,5,55,No
+Lunatic Dance,Icons/Moves/water-icon.png,Water,Physical,15,100,No
+Mach Rush I,Icons/Moves/neutral-icon.png,Neutral,Physical,4,35,No
+Mach Rush II,Icons/Moves/neutral-icon.png,Neutral,Physical,7,50,No
+Mach Rush III,Icons/Moves/neutral-icon.png,Neutral,Physical,10,80,No
+Mach Stinger V,Icons/Moves/electric-icon.png,Electric,Physical,20,20,No
+Machinegun Destroyer,Icons/Moves/fire-icon.png,Fire,Physical,20,150,No
+Marching Fishes,Icons/Moves/water-icon.png,Water,Physical,5,15,No
+Mature Poop,Icons/Moves/earth-icon.png,Earth,Physical,10,75,No
+Mega Burst,Icons/Moves/fire-icon.png,Fire,Physical,10,45,No
+Mega Flame,Icons/Moves/fire-icon.png,Fire,Physical,10,95,No
+Megadeath,Icons/Moves/dark-icon.png,Dark,Magic,20,95,No
+Megiddo Flame,Icons/Moves/fire-icon.png,Fire,Physical,20,130,No
+Mental Break,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Mental Break Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Mental Charge,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Mental Charge Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Metal Armor Blade,Icons/Moves/neutral-icon.png,Neutral,Physical,20,0,No
+Metal Cannon,Icons/Moves/neutral-icon.png,Neutral,Physical,5,70,No
+Metal Meteor,Icons/Moves/earth-icon.png,Earth,Physical,15,115,No
+Meteor Fall I,Icons/Moves/fire-icon.png,Fire,Physical,4,30,No
+Meteor Fall II,Icons/Moves/fire-icon.png,Fire,Physical,7,45,No
+Meteor Fall III,Icons/Moves/fire-icon.png,Fire,Physical,10,75,No
+Meteor Shower,Icons/Moves/neutral-icon.png,Neutral,Physical,10,40,No
+Meteor Wing,Icons/Moves/fire-icon.png,Fire,Magic,10,25,No
+Miracle Bomb,Icons/Moves/fire-icon.png,Fire,Physical,15,130,No
+Mirror Reflection,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Monkey Wrench,Icons/Moves/support-enhancement-icon.png,Neutral,Support,40,0,No
+Moon Night Bomb,Icons/Moves/water-icon.png,Water,Magic,10,60,No
+Mourning Dance,Icons/Moves/dark-icon.png,Dark,Physical,20,20,No
+Musical Fist,Icons/Moves/neutral-icon.png,Neutral,Magic,30,0,No
+Nail Bone,Icons/Moves/neutral-icon.png,Neutral,Direct,15,0,No
+Nail Scratch,Icons/Moves/dark-icon.png,Dark,Physical,2,40,No
+Nanomachine Break I,Icons/Moves/electric-icon.png,Electric,Physical,3,65,No
+Nanomachine Break II,Icons/Moves/electric-icon.png,Electric,Physical,6,85,No
+Nanomachine Break III,Icons/Moves/electric-icon.png,Electric,Physical,9,105,No
+Needle Spray,Icons/Moves/plant-icon.png,Plant,Physical,10,40,No
+Night Raid,Icons/Moves/dark-icon.png,Dark,Magic,15,65,No
+Nightmare I,Icons/Moves/dark-icon.png,Dark,Magic,3,55,No
+Nightmare II,Icons/Moves/dark-icon.png,Dark,Magic,6,75,No
+Nightmare III,Icons/Moves/dark-icon.png,Dark,Magic,9,95,No
+Nightmare Syndrome,Icons/Moves/neutral-icon.png,Neutral,Magic,15,0,No
+Ninja Blade,Icons/Moves/wind-icon.png,Wind,Physical,5,35,No
+Ninja Claw,Icons/Moves/neutral-icon.png,Neutral,Physical,10,30,No
+Nitro Stinger,Icons/Moves/electric-icon.png,Electric,Physical,30,0,No
+Nuclear Laser,Icons/Moves/electric-icon.png,Electric,Physical,30,0,No
+Oblivion Bird,Icons/Moves/fire-icon.png,Fire,Physical,15,110,No
+Ocean Love,Icons/Moves/support-icon.png,Neutral,Support,20,0,No
+Ocean Wave I,Icons/Moves/water-icon.png,Water,Magic,4,20,No
+Ocean Wave II,Icons/Moves/water-icon.png,Water,Magic,7,35,No
+Ocean Wave III,Icons/Moves/water-icon.png,Water,Magic,10,65,No
+Odin's Breath,Icons/Moves/water-icon.png,Water,Physical,25,105,No
+Omni Sword,Icons/Moves/light-icon.png,Light,Physical,30,150,No
+Pandemonium Lost,Icons/Moves/dark-icon.png,Dark,Magic,25,80,No
+Pandora Dialogue,Icons/Moves/neutral-icon.png,Neutral,Magic,15,0,No
+Panic Wisp,Icons/Moves/fire-icon.png,Fire,Magic,10,30,No
+Pendragon's Glory,Icons/Moves/electric-icon.png,Electric,Physical,25,145,No
+Pepper Breath,Icons/Moves/fire-icon.png,Fire,Physical,5,70,No
+Perfect Revival,Icons/Moves/support-icon.png,Neutral,Support,60,0,No
+Phantom Pain,Icons/Moves/dark-icon.png,Dark,Magic,50,0,No
+Physical Drain,Icons/Moves/neutral-icon.png,Neutral,Physical,3,50,No
+Pit Bomb,Icons/Moves/fire-icon.png,Fire,Magic,15,105,No
+Plasma Shot,Icons/Moves/fire-icon.png,Fire,Physical,25,35,No
+Plastic Blaze,Icons/Moves/fire-icon.png,Fire,Physical,5,60,No
+Platinum Junk,Icons/Moves/earth-icon.png,Earth,Physical,20,35,No
+Poison Bubbles,Icons/Moves/dark-icon.png,Dark,Magic,2,25,No
+Poison Ivy,Icons/Moves/plant-icon.png,Plant,Physical,5,65,No
+Poop,Icons/Moves/earth-icon.png,Earth,Physical,10,75,No
+Poop Dunk,Icons/Moves/earth-icon.png,Earth,Physical,10,80,No
+Poop Toss,Icons/Moves/earth-icon.png,Earth,Physical,10,75,No
+Positron Laser,Icons/Moves/light-icon.png,Light,Physical,20,150,No
+Power Energy I,Icons/Moves/neutral-icon.png,Neutral,Magic,3,60,No
+Power Energy II,Icons/Moves/neutral-icon.png,Neutral,Magic,6,80,No
+Power Energy III,Icons/Moves/neutral-icon.png,Neutral,Magic,9,100,No
+Power Metal,Icons/Moves/neutral-icon.png,Neutral,Physical,10,90,No
+Prison Fist,Icons/Moves/dark-icon.png,Dark,Physical,10,20,No
+Protect Wave,Icons/Moves/support-enhancement-icon.png,Neutral,Support,30,0,No
+Protect Wave (Awake),Icons/Moves/support-enhancement-icon.png,Neutral,Support,99,0,No
+Pummel Whack,Icons/Moves/dark-icon.png,Dark,Physical,10,90,No
+Puppet Pummel,Icons/Moves/earth-icon.png,Earth,Physical,20,125,No
+Puppy Howl,Icons/Moves/light-icon.png,Light,Magic,10,0,No
+Pyro Punch,Icons/Moves/fire-icon.png,Fire,Physical,10,45,No
+Quake!Blast!Fire!Father!,Icons/Moves/fire-icon.png,Fire,Physical,25,35,No
+Quo Vadis,Icons/Moves/light-icon.png,Light,Physical,40,0,No
+Rare Metal Poop,Icons/Moves/earth-icon.png,Earth,Physical,10,80,No
+Razor Wind,Icons/Moves/neutral-icon.png,Neutral,Physical,10,30,No
+Restore,Icons/Moves/support-icon.png,Neutral,Support,25,0,No
+Revenge Flame,Icons/Moves/support-enhancement-icon.png,Neutral,Direct,15,0,No
+Revive,Icons/Moves/support-icon.png,Neutral,Support,30,0,No
+Ripping Net,Icons/Moves/electric-icon.png,Electric,Physical,10,40,No
+River of Power,Icons/Moves/water-icon.png,Water,Magic,20,130,No
+Rock Breaker,Icons/Moves/earth-icon.png,Earth,Physical,5,70,No
+Rock Fist,Icons/Moves/earth-icon.png,Earth,Physical,5,65,No
+Rune Forest I,Icons/Moves/plant-icon.png,Plant,Magic,4,20,No
+Rune Forest II,Icons/Moves/plant-icon.png,Plant,Magic,7,35,No
+Rune Forest III,Icons/Moves/plant-icon.png,Plant,Magic,10,65,No
+S-Gold Solar Storm,Icons/Moves/light-icon.png,Light,Magic,25,75,No
+Safety Guard,Icons/Moves/support-enhancement-icon.png,Neutral,Support,32,0,No
+Saint Knuckle I,Icons/Moves/light-icon.png,Light,Physical,3,65,No
+Saint Knuckle II,Icons/Moves/light-icon.png,Light,Physical,6,85,No
+Saint Knuckle III,Icons/Moves/light-icon.png,Light,Physical,9,105,No
+Savage Emperor,Icons/Moves/light-icon.png,Light,Magic,15,105,No
+Scissor Claw,Icons/Moves/neutral-icon.png,Neutral,Physical,20,0,No
+Scrapless Claw,Icons/Moves/earth-icon.png,Earth,Physical,15,110,No
+Seed Blast,Icons/Moves/plant-icon.png,Plant,Physical,5,15,No
+Seven's Fantasia,Icons/Moves/light-icon.png,Light,Magic,20,75,No
+Shadow Wing,Icons/Moves/fire-icon.png,Fire,Magic,15,65,No
+Shield of the Just,Icons/Moves/light-icon.png,Light,Magic,25,115,No
+Shield of the Just,Icons/Moves/light-icon.png,Light,Magic,25,110,No
+Shine of Bee,Icons/Moves/fire-icon.png,Fire,Physical,35,0,No
+Shining Laser I,Icons/Moves/light-icon.png,Light,Magic,4,20,No
+Shining Laser II,Icons/Moves/light-icon.png,Light,Magic,7,35,No
+Shining Laser III,Icons/Moves/light-icon.png,Light,Magic,10,65,No
+Shiny Ring,Icons/Moves/light-icon.png,Light,Physical,5,70,No
+Shock,Icons/Moves/earth-icon.png,Earth,Physical,10,40,No
+Silent Bullet,Icons/Moves/dark-icon.png,Dark,Physical,10,15,No
+Silent Bullet (Awake),Icons/Moves/dark-icon.png,Dark,Physical,20,30,No
+Sludge,Icons/Moves/earth-icon.png,Earth,Physical,10,40,No
+Smile Bomber,Icons/Moves/fire-icon.png,Fire,Physical,15,110,No
+Smile Fang,Icons/Moves/neutral-icon.png,Neutral,Physical,2,40,No
+Smile Warhead,Icons/Moves/neutral-icon.png,Neutral,Physical,20,110,No
+Soap Flower,Icons/Moves/water-icon.png,Water,Magic,2,30,No
+Sonic Void I,Icons/Moves/wind-icon.png,Wind,Magic,3,55,No
+Sonic Void II,Icons/Moves/wind-icon.png,Wind,Magic,6,75,No
+Sonic Void III,Icons/Moves/wind-icon.png,Wind,Magic,9,95,No
+Sorrow Blue,Icons/Moves/water-icon.png,Water,Magic,40,0,No
+Soul Absorption,Icons/Moves/dark-icon.png,Dark,Physical,5,70,No
+Soul Chopper,Icons/Moves/dark-icon.png,Dark,Magic,30,0,No
+Soul Core Attack,Icons/Moves/earth-icon.png,Earth,Physical,30,0,No
+Soul Digitalization,Icons/Moves/neutral-icon.png,Neutral,Magic,25,95,No
+Soul Digitalization,Icons/Moves/neutral-icon.png,Neutral,Magic,25,90,No
+Speed Break,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Speed Break Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Speed Charge,Icons/Moves/support-enhancement-icon.png,Neutral,Support,6,0,No
+Speed Charge Field,Icons/Moves/support-enhancement-icon.png,Neutral,Support,20,0,No
+Speed Star,Icons/Moves/light-icon.png,Light,Physical,15,90,No
+Spider Shooter,Icons/Moves/fire-icon.png,Fire,Physical,15,30,No
+Spiking Strike,Icons/Moves/plant-icon.png,Plant,Physical,20,0,No
+Spinning Needle,Icons/Moves/wind-icon.png,Wind,Physical,10,45,No
+Spiral Blow,Icons/Moves/wind-icon.png,Wind,Physical,10,90,No
+Spiral Masquerade,Icons/Moves/dark-icon.png,Dark,Physical,25,30,No
+Spiral Masquerade,Icons/Moves/dark-icon.png,Dark,Physical,25,30,No
+Spiral Sword,Icons/Moves/electric-icon.png,Electric,Physical,15,110,No
+Spiral Twister,Icons/Moves/fire-icon.png,Fire,Magic,5,55,No
+Spirit Drain,Icons/Moves/neutral-icon.png,Neutral,Magic,3,40,No
+Spitfire Blast,Icons/Moves/fire-icon.png,Fire,Physical,5,35,No
+Starlight Explosion,Icons/Moves/light-icon.png,Light,Magic,20,90,No
+Starlight Velocity,Icons/Moves/light-icon.png,Light,Physical,20,130,No
+Status Barrier,Icons/Moves/support-enhancement-icon.png,Neutral,Support,16,0,No
+Sticker Blade,Icons/Moves/dark-icon.png,Dark,Physical,10,25,No
+Sticky Net,Icons/Moves/plant-icon.png,Plant,Physical,5,65,No
+Strike of the Seven Stars,Icons/Moves/light-icon.png,Light,Magic,20,15,No
+Strike Roll,Icons/Moves/neutral-icon.png,Neutral,Physical,20,140,No
+Sub-zero Ice Punch,Icons/Moves/water-icon.png,Water,Physical,10,80,No
+Summon,Icons/Moves/neutral-icon.png,Neutral,Fixed,5,0,No
+Sunshine Beam,Icons/Moves/light-icon.png,Light,Magic,10,80,No
+Super Bubble Blow,Icons/Moves/water-icon.png,Water,Magic,2,35,No
+Super Shocker,Icons/Moves/electric-icon.png,Electric,Magic,5,60,No
+Super Stinky Jet,Icons/Moves/earth-icon.png,Earth,Magic,10,20,No
+Supersonic Voice,Icons/Moves/wind-icon.png,Wind,Magic,30,0,No
+Superstar Uppercut,Icons/Moves/light-icon.png,Light,Physical,15,110,No
+Support End,Icons/Moves/light-icon.png,Light,Magic,10,30,No
+Supreme Cannon,Icons/Moves/water-icon.png,Water,Magic,30,0,No
+Supreme Cannon,Icons/Moves/water-icon.png,Water,Magic,30,95,No
+Symphony Crusher,Icons/Moves/neutral-icon.png,Neutral,Magic,20,0,No
+Table Flip,Icons/Moves/earth-icon.png,Earth,Physical,25,100,No
+Tail Hammer,Icons/Moves/earth-icon.png,Earth,Physical,10,85,No
+Taizoukai Mandala,Icons/Moves/dark-icon.png,Dark,Magic,20,70,No
+Talisman of Light,Icons/Moves/dark-icon.png,Dark,Magic,15,105,No
+Tearing Shot,Icons/Moves/water-icon.png,Water,Magic,5,65,No
+Terra Force,Icons/Moves/fire-icon.png,Fire,Physical,20,90,No
+Terrier Tornado,Icons/Moves/wind-icon.png,Wind,Magic,5,20,No
+Terrors Cluster,Icons/Moves/electric-icon.png,Electric,Physical,20,125,No
+Texture Blow,Icons/Moves/wind-icon.png,Wind,Physical,10,40,No
+The King of Fists,Icons/Moves/wind-icon.png,Wind,Physical,15,55,No
+The Ray of Victory,Icons/Moves/light-icon.png,Light,Physical,25,100,No
+Thorn Whip,Icons/Moves/plant-icon.png,Plant,Physical,20,120,No
+Thousand Fists,Icons/Moves/wind-icon.png,Wind,Physical,25,15,No
+Thunder Cloud,Icons/Moves/electric-icon.png,Electric,Magic,5,30,No
+Thunder Fall I,Icons/Moves/electric-icon.png,Electric,Physical,4,30,No
+Thunder Fall II,Icons/Moves/electric-icon.png,Electric,Physical,7,45,No
+Thunder Fall III,Icons/Moves/electric-icon.png,Electric,Physical,10,75,No
+Tidal Wave,Icons/Moves/water-icon.png,Water,Magic,15,65,No
+Tomahawk Stinger,Icons/Moves/neutral-icon.png,Neutral,Physical,20,130,No
+Top Gun,Icons/Moves/wind-icon.png,Wind,Magic,15,110,No
+Transcendent Sword,Icons/Moves/fire-icon.png,Fire,Physical,30,115,No
+Transcendent Sword,Icons/Moves/fire-icon.png,Fire,Physical,30,130,No
+Tri-Horn Attack,Icons/Moves/earth-icon.png,Earth,Physical,15,150,No
+Trick or Treat,Icons/Moves/neutral-icon.png,Neutral,Physical,15,100,No
+Trident Revolver,Icons/Moves/fire-icon.png,Fire,Physical,15,40,No
+Trident Saber,Icons/Moves/neutral-icon.png,Neutral,Physical,15,40,No
+Trump Sword,Icons/Moves/neutral-icon.png,Neutral,Magic,20,35,No
+Turbo Stinger,Icons/Moves/electric-icon.png,Electric,Physical,10,25,No
+Twenty Dive,Icons/Moves/neutral-icon.png,Neutral,Physical,5,75,No
+Ultimate Flare,Icons/Moves/fire-icon.png,Fire,Physical,20,90,No
+Ultimate Ouryuken,Icons/Moves/neutral-icon.png,Neutral,Physical,50,0,No
+Unidentified Flying Kiss,Icons/Moves/dark-icon.png,Dark,Magic,15,95,No
+V-Nova Blast,Icons/Moves/fire-icon.png,Fire,Physical,10,105,No
+Vantheon,Icons/Moves/neutral-icon.png,Neutral,Physical,10,15,No
+Vee Laser,Icons/Moves/light-icon.png,Light,Physical,10,95,No
+Veemon Headbutt,Icons/Moves/neutral-icon.png,Neutral,Physical,5,75,No
+Venom Infusion,Icons/Moves/dark-icon.png,Dark,Physical,20,135,No
+Venom Trap,Icons/Moves/plant-icon.png,Plant,Physical,10,40,No
+Victory Sword,Icons/Moves/wind-icon.png,Wind,Physical,25,65,No
+Volcanic Driver,Icons/Moves/fire-icon.png,Fire,Physical,20,130,No
+Volcanic Strike,Icons/Moves/fire-icon.png,Fire,Physical,10,95,No
+Vortex Penetration,Icons/Moves/water-icon.png,Water,Physical,35,0,No
+Vulcan Crusher,Icons/Moves/earth-icon.png,Earth,Physical,30,145,No
+Vulcan's Hammer,Icons/Moves/electric-icon.png,Electric,Physical,15,115,No
+Waltz's End,Icons/Moves/neutral-icon.png,Neutral,Physical,25,35,No
+Weltgeist,Icons/Moves/support-enhancement-icon.png,Neutral,Support,15,0,No
+Will-o'-Wisp,Icons/Moves/fire-icon.png,Fire,Magic,10,30,No
+Will-O'-Wisp Slash,Icons/Moves/fire-icon.png,Fire,Physical,20,70,No
+Wind Claw I,Icons/Moves/wind-icon.png,Wind,Physical,3,65,No
+Wind Claw II,Icons/Moves/wind-icon.png,Wind,Physical,6,85,No
+Wind Claw III,Icons/Moves/wind-icon.png,Wind,Physical,9,105,No
+Wind Cutter Sword,Icons/Moves/wind-icon.png,Wind,Physical,15,40,No
+Winning Knuckle,Icons/Moves/neutral-icon.png,Neutral,Physical,15,115,No
+Wolf Claw,Icons/Moves/neutral-icon.png,Neutral,Physical,15,120,No
+Wolkenapalm I,Icons/Moves/fire-icon.png,Fire,Physical,3,65,No
+Wolkenapalm II,Icons/Moves/fire-icon.png,Fire,Physical,6,85,No
+Wolkenapalm III,Icons/Moves/fire-icon.png,Fire,Physical,9,105,No
+Wyvern's Breath,Icons/Moves/wind-icon.png,Wind,Physical,25,110,No
+X-Aura,Icons/Moves/support-icon.png,Neutral,Support,25,0,No
+X-Heal,Icons/Moves/support-icon.png,Neutral,Support,8,0,No
+Zwei Glänze,Icons/Moves/neutral-icon.png,Neutral,Physical,20,150,No
+Zwei Sieger,Icons/Moves/light-icon.png,Light,Physical,10,90,No
