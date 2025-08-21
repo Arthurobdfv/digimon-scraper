@@ -22,7 +22,7 @@ window.initSkillinfoTab = function () {
   }
   document.getElementById('skillNameHeader').textContent = skillName;
 
-  Papa.parse('Database/digimon_moves_complete.csv', {
+  Papa.parse('data/digimon_moves_complete.csv', {
     header: true,
     download: true,
     complete: function (results) {
@@ -64,14 +64,14 @@ window.initSkillinfoTab = function () {
   // Join digimon_moves_complete and digimon_moves for all learners
   Promise.all([
     new Promise(resolve => {
-      Papa.parse('Database/digimon_moves_complete.csv', {
+  Papa.parse('data/digimon_moves_complete.csv', {
         header: true,
         download: true,
         complete: results => resolve(results.data)
       });
     }),
     new Promise(resolve => {
-      Papa.parse('Database/digimon_moves.csv', {
+  Papa.parse('data/digimon_moves.csv', {
         header: true,
         download: true,
         complete: results => resolve(results.data)
@@ -97,7 +97,7 @@ window.initSkillinfoTab = function () {
       document.getElementById('digimonListContainer').innerHTML = '<div class="alert alert-info">No Digimon learns this skill.</div>';
       return;
     }
-  fetch('Database/digimon_icon_map.csv').then(r => r.text()).then(csvText => {
+  fetch('data/digimon_icon_map.csv').then(r => r.text()).then(csvText => {
       const lines = csvText.split(/\r?\n/).slice(1);
       const iconMap = {};
       lines.forEach(line => {

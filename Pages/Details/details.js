@@ -27,7 +27,7 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 		return;
 	}
 	// Load icon map from CSV
-	 fetch('../../Database/digimon_icon_map.csv').then(r => r.text()).then(csvText => {
+	fetch('data/digimon_icon_map.csv').then(r => r.text()).then(csvText => {
 		const lines = csvText.split(/\r?\n/).slice(1);
 		const iconMap = {};
 		lines.forEach(line => {
@@ -79,8 +79,8 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 
 				// Fetch moves and join for this Digimon
 				Promise.all([
-					fetchAndParseCSV('../../Database/digimon_moves_complete.csv'),
-					fetchAndParseCSV('../../Database/digimon_moves.csv')
+					fetchAndParseCSV('data/digimon_moves_complete.csv'),
+					fetchAndParseCSV('data/digimon_moves.csv')
 				]).then(([movesComplete, movesCsv]) => {
 					// Get all moves for this Digimon from both sources
 					const moves1 = movesComplete.filter(row => row.Digimon === digimon.Name && row.Move);
@@ -166,8 +166,8 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 
 window.initDetailsTab = function() {
     Promise.all([
-		 fetchAndParseCSV('../../Database/digimon_data.csv'),
-		 fetchAndParseCSV('../../Database/digimon_evolutions.csv')
+		fetchAndParseCSV('data/digimon_data.csv'),
+		fetchAndParseCSV('data/digimon_evolutions.csv')
     ]).then(([digimonData, evolutionsData]) => {
         // Get Digimon name from SPA global variable or query parameter
         let digimonName = window.selectedDigimonName;
