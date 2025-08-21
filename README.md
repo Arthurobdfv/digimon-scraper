@@ -1,11 +1,15 @@
 # DigimonScraper Application
-
+**Now with AI-powered features and development!**
 ## Overview
 DigimonScraper is a modular web application for browsing, searching, and exploring Digimon data, evolutions, and moves. It provides a rich, interactive experience for Digimon fans and researchers, combining robust data scraping, parsing, and visualization features.
 
 ---
 
 ## Key Features
+### 0. AI Integration & Development
+- **AI-Assisted Design:** Major features, algorithms, and UI improvements were developed with the help of GitHub Copilot and advanced AI agents.
+- **Automated Refactoring:** Codebase modularization, bug fixing, and feature planning were accelerated using AI-driven suggestions and automation.
+- **Intelligent Pathfinding:** Evolution pathfinding, threat analysis, and move annotation logic leverage AI for optimal results and maintainability.
 
 ### 1. Digimon Browser (`browse.html`)
 - **Responsive Table:** View all Digimon with sortable columns for Name, Attribute, Type, and Stage.
@@ -13,6 +17,20 @@ DigimonScraper is a modular web application for browsing, searching, and explori
 - **Icon Display:** Each Digimon is shown with its local icon, mapped via `digimon_icon_map.csv` and loaded from `Icons/Digimon/`.
 - **Error Handling:** Displays loading and error states for missing or broken data.
 - **Navigation:** Click a Digimon name to view detailed information on the details page.
+### 5. Evolution Pathfinding & Threat Analysis (New)
+- **Multi-Move Pathfinding:** Find the shortest evolution path between Digimon, supporting multiple required moves and advanced move learning logic.
+- **Threat Analysis:** Analyze and display the strongest inheritable moves for selected Digimon, with element coverage and counter recommendations.
+- **Move Annotation:** Evolution paths are annotated with move learner details, including move name, icon, description, and level.
+- **Download/Validate Selection:** Export current pathfinding selection as JSON and validate paths from JSON files.
+- **Debug Logging:** Progress and potential paths are logged for transparency and troubleshooting.
+
+### 6. Skill Info & SPA Navigation (New)
+- **Skill Info Tab:** View detailed information for any skill, including all Digimon that learn it, with icons and move details joined from multiple CSVs.
+- **Single Page Application (SPA):** Seamless tab navigation and hash-based linking for direct access to Digimon, skills, and features.
+- **Skill Links:** Clickable move names throughout the app link directly to the Skill Info tab, with correct URL and hash navigation.
+
+### 7. Enhanced Digimon Details (New)
+- **Moves Learned Table:** Comprehensive moves table now appears before evolutions, with icons, type, power, and level for each move.
 
 ### 2. Digimon Details (`details.html`)
 - **Profile View:** Shows full details for a selected Digimon, including icon, stats, evolutions, and moves.
@@ -70,7 +88,8 @@ DigimonScraper is a modular web application for browsing, searching, and explori
 - **PapaParse:** Robust CSV parsing in the browser.
 - **JavaScript:** Application logic and event handling.
 - **PowerShell:** Automated icon downloading.
-
+**AI Integration:**
+- GitHub Copilot and advanced AI agents for code generation, refactoring, and feature planning.
 ---
 
 ## Extending & Customizing
@@ -89,8 +108,9 @@ DigimonScraper is a modular web application for browsing, searching, and explori
 ---
 
 ## Credits
+
 - Digimon data and icons sourced from public databases and fan resources.
-- Application built and maintained by the project owner.
+- Application built and maintained by the project owner, with major features and improvements developed in collaboration with AI (GitHub Copilot).
 
 ---
 
