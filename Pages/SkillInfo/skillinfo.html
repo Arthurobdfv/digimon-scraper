@@ -1,0 +1,15 @@
+<div class="container">
+		<h2 class="mb-3" id="skillNameHeader">Skill Details</h2>
+		<div id="skillInfoContainer" class="mb-4"></div>
+		<h4>Digimons that learn this skill</h4>
+		<div id="digimonListContainer"></div>
+</div>
+<script src="skillinfo.js"></script>
+<script>
+	if (window.initSkillinfoTab) window.initSkillinfoTab();
+	else {
+		window.addEventListener('DOMContentLoaded', function() {
+			if (window.initSkillinfoTab) window.initSkillinfoTab();
+		});
+	}
+</script>

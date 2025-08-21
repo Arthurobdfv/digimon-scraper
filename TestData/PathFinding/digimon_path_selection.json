@@ -1,0 +1,11 @@
+{
+  "initialDigimon": "Agumon",
+  "finalDigimon": "BlackWarGreymon",
+  "moves": [
+    "Saint Knuckle III",
+    "Awesome Quake III",
+    "Comet Hammer III",
+    "Ice Archery III"
+  ],
+  "type": "Physical"
+}

@@ -28,7 +28,7 @@ const puppeteer = require('puppeteer');
 
   // Write to CSV
   const csv = 'Name,Icon\n' + digimons.map(d => `${JSON.stringify(d.name)},${d.iconUrl}`).join('\n');
-  fs.writeFileSync('digimon_icon_map.csv', csv);
+  fs.writeFileSync('Database/digimon_icon_map.csv', csv);
 
   await browser.close();
   console.log(`Scraped ${digimons.length} Digimon icons.`);

@@ -1,0 +1,8 @@
+{
+  "initialDigimon": "Agumon",
+  "finalDigimon": "BlackWarGreymon",
+  "moves": [],
+  "type": "Physical",
+  "optimizeMoves": true,
+  "topThreads": 5
+}

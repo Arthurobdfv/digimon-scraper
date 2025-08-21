@@ -105,7 +105,7 @@ function log(msg) { fs.appendFileSync(logPath, msg + '\n'); }
                     }
                 }
                 // Write to CSV
-                const csvPath = path.join(__dirname, 'digimon_evolutions.csv');
+                const csvPath = path.join(__dirname, 'Database/digimon_evolutions.csv');
                 const csvRows = [['Digimon', 'Evolves From', 'Digivolution Condition', 'Evolves To']];
                 for (const row of results) {
                     csvRows.push([row.Digimon, row.EvolvesFrom, row.DigivolutionCondition, row.EvolvesTo]);

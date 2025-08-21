@@ -15,6 +15,20 @@
       "description": "Documentation for test copy.html, its components, and technical details."
     },
     {
+      "id": "doc-battle-effectiveness",
+      "type": "documentation",
+      "name": "battle_effectiveness.md",
+      "path": "Documentation/battle_effectiveness.md",
+      "description": "Digimon Cyber Sleuth type/attribute effectiveness chart and rules."
+    },
+    {
+      "id": "doc-evolution-cyber-sleuth",
+      "type": "documentation",
+      "name": "digimon_evolution_cyber_sleuth.md",
+      "path": "Documentation/digimon_evolution_cyber_sleuth.md",
+      "description": "Summary of Digimon evolution mechanics in Cyber Sleuth."
+    },
+    {
       "id": "data-digimon",
       "type": "data",
       "name": "digimon_data.csv",

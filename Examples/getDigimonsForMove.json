@@ -1,0 +1,22 @@
+
+{
+    "input": [ "Ice Archery III", "Wolkenapalm III", "Comet Hammer III", "Saint Knuckle III" ],
+    "output": [
+        {
+            "move": "Ice Archery III",
+            "digimons": [ "Digimon A", "Digimon B" ]
+        },
+        {
+            "move": "Wolkenapalm III",
+            "digimons": [ "Digimon C", "Digimon D" ]
+        },
+        {
+            "move": "Comet Hammer III",
+            "digimons": [ "Digimon E", "Digimon F" ]
+        },
+        {
+            "move": "Saint Knuckle III",
+            "digimons": [ "Digimon G", "Digimon H" ]
+        }
+    ]
+}

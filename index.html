@@ -7,33 +7,117 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="Experimentation/buildDigimonEvolutionGraph.js"></script>
+	<script src="Experimentation/getDigimonsForMove.js"></script>
+	<script src="digimon_pathfinder.js"></script>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
-		<div class="container-fluid">
-			<span class="navbar-brand mb-0 h1">Digimon Browser</span>
-			<ul class="navbar-nav ms-auto">
-				<li class="nav-item">
-					<a class="nav-link active" href="browse.html">Browse</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="aggregate.html">Aggregate</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="details.html">Details</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="skillinfo.html">Skill Info</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="skills.html">Skills</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
+	<div id="navbar-container"></div>
 	<div class="container">
-		<div id="digimonTableContainer"></div>
+		<div id="tab-content-container"></div>
 	</div>
-	<script src="browse.js"></script>
+	<script>
+		// Load navbar
+		fetch('navbar.html')
+			.then(response => response.text())
+			.then(html => {
+				document.getElementById('navbar-container').innerHTML = html;
+				setupNavbar();
+			});
+
+		// Tab/page loader
+		const tabMap = {
+			browse: {
+				html: 'Pages/Browse/browse.html',
+				js: 'Pages/Browse/browse.js'
+			},
+			aggregate: {
+				html: 'Pages/Aggregate/aggregate.html',
+				js: 'Pages/Aggregate/aggregate.js'
+			},
+			details: {
+				html: 'Pages/Details/details.html',
+				js: 'Pages/Details/details.js'
+			},
+			skillinfo: {
+				html: 'Pages/SkillInfo/skillinfo.html',
+				js: 'Pages/SkillInfo/skillinfo.js'
+			},
+			skills: {
+				html: 'Pages/Skills/skills.html',
+				js: 'Pages/Skills/skills.js'
+			},
+			   evolutionpath: {
+				   html: 'Pages/EvolutionPath/evolution_path.html',
+				   js: 'Pages/EvolutionPath/evolution_path.js'
+			   }
+		};
+
+		function loadTab(tab, params) {
+			const tabInfo = tabMap[tab];
+			if (!tabInfo) return;
+			// Update hash for skillinfo tab with skill name
+			if (tab === 'skillinfo' && params && params.skillName) {
+				window.location.hash = `#skillinfo?name=${encodeURIComponent(params.skillName)}`;
+				window.selectedSkillName = params.skillName;
+			} else {
+				window.location.hash = `#${tab}`;
+			}
+			fetch(tabInfo.html)
+				.then(response => response.text())
+				.then(html => {
+					const parser = new DOMParser();
+					const doc = parser.parseFromString(html, 'text/html');
+					let content = doc.querySelector('.container');
+					document.getElementById('tab-content-container').innerHTML = content ? content.innerHTML : html;
+					const oldScript = document.getElementById('tab-script');
+					if (oldScript) oldScript.remove();
+					const script = document.createElement('script');
+					script.src = tabInfo.js;
+					script.id = 'tab-script';
+					script.onload = function() {
+						// Wait for DOM update before calling init function
+						setTimeout(function() {
+							if (tab === 'skillinfo' && window.initSkillinfoTab) {
+								window.initSkillinfoTab();
+							} else if (window[`init${capitalize(tab)}Tab`]) {
+								window[`init${capitalize(tab)}Tab`]();
+							}
+						}, 0);
+					};
+					document.body.appendChild(script);
+				});
+		}
+
+		function capitalize(str) {
+			return str.charAt(0).toUpperCase() + str.slice(1);
+		}
+
+		function setupNavbar() {
+			const links = document.querySelectorAll('#navbar-container [data-tab]');
+			links.forEach(link => {
+				link.addEventListener('click', function(e) {
+					e.preventDefault();
+					links.forEach(l => l.classList.remove('active'));
+					this.classList.add('active');
+					loadTab(this.getAttribute('data-tab'));
+				});
+			});
+			// Load default tab
+			loadTab('browse');
+			// Handle hash navigation for skillinfo tab
+			window.addEventListener('hashchange', function() {
+				const hash = window.location.hash;
+				if (hash.startsWith('#skillinfo')) {
+					const params = new URLSearchParams(hash.split('?')[1] || '');
+					const skillName = params.get('name');
+					if (skillName) {
+						window.selectedSkillName = decodeURIComponent(skillName);
+						loadTab('skillinfo', { skillName });
+					}
+				}
+			});
+		}
+	</script>
 </body>
 </html>

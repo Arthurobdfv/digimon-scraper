@@ -39,7 +39,7 @@ function log(message) {
         log(`Found ${moves.length} moves.`);
 
         // Write to CSV with all required columns
-        const csvPath = path.join(__dirname, 'digimon_moves_complete.csv');
+    const csvPath = path.join(__dirname, 'Database/digimon_moves_complete.csv');
         const csvRows = [['Move', 'Icon', 'Attribute', 'Type', 'SP Cost', 'Power', 'Inheritable']];
         for (const move of moves) {
             csvRows.push([
