@@ -1,5 +1,3 @@
----
-
 # Summary: Learnings for Optimal Evolution Path
 
 ## Key Principles
