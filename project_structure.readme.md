@@ -29,13 +29,14 @@ DigimonScraper/
 ├── Icons/
 │   ├── Digimon/                  # Digimon icon images
 │   └── Moves/                    # Move icon images
+├── Database/
+│   ├── digimon_data.csv          # Main Digimon data
+│   ├── digimon_evolutions.csv    # Digimon evolutions data
+│   ├── digimon_moves.csv         # Digimon moves data
+│   ├── digimon_moves_complete.csv # Complete moves data
+│   └── digimon_icon_map.csv      # Icon mapping
 ├── index.html                    # SPA shell and entry point
 ├── navbar.html                   # Modularized navbar (loaded dynamically)
-├── digimon_data.csv              # Main Digimon data
-├── digimon_evolutions.csv        # Digimon evolutions data
-├── digimon_moves.csv             # Digimon moves data
-├── digimon_moves_complete.csv    # Complete moves data
-├── digimon_icon_map.csv          # Icon mapping
 ├── mcp.json                      # Resource registry
 ├── package.json                  # Project metadata
 └── project_structure.readme.md   # This documentation file
@@ -59,11 +60,11 @@ DigimonScraper/
    - All navigation should use the SPA loader (no direct file links).
 
 ## Data Files
-- **digimon_data.csv**: Main Digimon dataset.
-- **digimon_evolutions.csv**: Evolution relationships.
-- **digimon_moves.csv**: Digimon moves.
-- **digimon_moves_complete.csv**: Complete moves data.
-- **digimon_icon_map.csv**: Icon mapping for Digimon and moves.
+- **Database/digimon_data.csv**: Main Digimon dataset.
+- **Database/digimon_evolutions.csv**: Evolution relationships.
+- **Database/digimon_moves.csv**: Digimon moves.
+- **Database/digimon_moves_complete.csv**: Complete moves data.
+- **Database/digimon_icon_map.csv**: Icon mapping for Digimon and moves.
 
 ## Resource Registry (mcp.json)
 All major resources are registered in `mcp.json` with unique IDs for documentation and discoverability.

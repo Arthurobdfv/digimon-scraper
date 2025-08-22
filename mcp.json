@@ -32,21 +32,21 @@
       "id": "data-digimon",
       "type": "data",
       "name": "digimon_data.csv",
-      "path": "digimon_data.csv",
+      "path": "Database/digimon_data.csv",
       "description": "Main Digimon data: names, attributes, elements."
     },
     {
       "id": "data-evolutions",
       "type": "data",
       "name": "digimon_evolutions.csv",
-      "path": "digimon_evolutions.csv",
+      "path": "Database/digimon_evolutions.csv",
       "description": "Digimon evolutions and previous forms."
     },
     {
       "id": "data-moves",
       "type": "data",
       "name": "digimon_moves.csv",
-      "path": "digimon_moves.csv",
+      "path": "Database/digimon_moves.csv",
       "description": "Digimon moves, attacks, and movesets by level."
     },
     {

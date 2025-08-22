@@ -25,15 +25,15 @@ window.initEvolutionpathTab = function () {
   }
 
   Promise.all([
-    fetch('data/digimon_data.csv').then(r => {
+    fetch('../../Database/digimon_data.csv').then(r => {
       if (!r.ok) throw new Error('Failed to fetch digimon_data.csv');
       return r.text();
     }),
-    fetch('data/digimon_icon_map.csv').then(r => {
+    fetch('../../Database/digimon_icon_map.csv').then(r => {
       if (!r.ok) throw new Error('Failed to fetch digimon_icon_map.csv');
       return r.text();
     }),
-    fetch('data/digimon_moves_complete.csv').then(r => {
+    fetch('../../Database/digimon_moves_complete.csv').then(r => {
       if (!r.ok) throw new Error('Failed to fetch digimon_moves_complete.csv');
       return r.text();
     })
