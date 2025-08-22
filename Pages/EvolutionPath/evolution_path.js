@@ -25,8 +25,8 @@ window.initEvolutionpathTab = function () {
   }
 
   Promise.all([
-    fetch('data/digimon_data.csv').then(r => {
-      if (!r.ok) throw new Error('Failed to fetch digimon_data.csv');
+    fetch(window.DIGIMON_CSV_PATHS?.data ? window.DIGIMON_CSV_PATHS.data.replace('Database/', 'data/') : 'data/digimon_data.csv').then(r => {
+      if (!r.ok) throw new Error('Failed to fetch Digimon data CSV');
       return r.text();
     }),
     fetch('data/digimon_icon_map.csv').then(r => {
@@ -38,13 +38,13 @@ window.initEvolutionpathTab = function () {
       return r.text();
     })
   ]).then(([dataCsv, iconCsv, movesCsvText]) => {
-    console.log('[EvolutionPath] digimon_data.csv loaded:', dataCsv.length);
+    console.log('[EvolutionPath] Digimon data CSV loaded:', dataCsv.length);
     console.log('[EvolutionPath] digimon_icon_map.csv loaded:', iconCsv.length);
     console.log('[EvolutionPath] digimon_moves_complete.csv loaded:', movesCsvText.length);
     // Digimon dropdowns
     const dataResults = Papa.parse(dataCsv, { header: true }).data;
     const iconResults = Papa.parse(iconCsv, { header: true }).data;
-    console.log('[EvolutionPath] Parsed digimon_data.csv:', dataResults);
+    console.log('[EvolutionPath] Parsed Digimon data CSV:', dataResults);
     console.log('[EvolutionPath] Parsed digimon_icon_map.csv:', iconResults);
     const iconMap = {};
     iconResults.forEach(row => {
@@ -83,7 +83,7 @@ window.initEvolutionpathTab = function () {
       updateFieldStates();
     }
     if (names.length === 0) {
-      resultContainer.innerHTML = '<div class="alert alert-danger">No Digimon found. Check digimon_data.csv.</div>';
+      resultContainer.innerHTML = '<div class="alert alert-danger">No Digimon found. Check the Digimon data source configuration.</div>';
       return;
     }
     function renderDropdown(input, dropdown, names) {

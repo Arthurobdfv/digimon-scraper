@@ -31,7 +31,7 @@ DigimonScraper/
 │   └── Moves/                    # Move icon images
 ├── index.html                    # SPA shell and entry point
 ├── navbar.html                   # Modularized navbar (loaded dynamically)
-├── digimon_data.csv              # Main Digimon data
+├── [digimon_data.csv]           # Main Digimon data (path configurable via config.js)
 ├── digimon_evolutions.csv        # Digimon evolutions data
 ├── digimon_moves.csv             # Digimon moves data
 ├── digimon_moves_complete.csv    # Complete moves data
@@ -59,7 +59,7 @@ DigimonScraper/
    - All navigation should use the SPA loader (no direct file links).
 
 ## Data Files
-- **digimon_data.csv**: Main Digimon dataset.
+- **Digimon Data CSV**: Main Digimon dataset (path configurable via `window.DIGIMON_CSV_PATHS.data` in config.js).
 - **digimon_evolutions.csv**: Evolution relationships.
 - **digimon_moves.csv**: Digimon moves.
 - **digimon_moves_complete.csv**: Complete moves data.

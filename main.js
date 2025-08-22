@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', function() {
     container.innerHTML = `<div class="alert alert-info mt-4">Loading Digimon data...</div>`;
   }
   Promise.all([
-  fetchAndParseCSV('Database/digimon_data.csv'),
+  fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.data || 'Database/digimon_data.csv'),
   fetchAndParseCSV('Database/digimon_evolutions.csv'),
   fetchAndParseCSV('Database/digimon_moves.csv')
   ]).then(([digimonData, digimonEvolutions, digimonMoves]) => {

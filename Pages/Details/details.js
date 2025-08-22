@@ -166,7 +166,7 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 
 window.initDetailsTab = function() {
     Promise.all([
-		fetchAndParseCSV('data/digimon_data.csv'),
+		fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.data ? window.DIGIMON_CSV_PATHS.data.replace('Database/', 'data/') : 'data/digimon_data.csv'),
 		fetchAndParseCSV('data/digimon_evolutions.csv')
     ]).then(([digimonData, evolutionsData]) => {
         // Get Digimon name from SPA global variable or query parameter

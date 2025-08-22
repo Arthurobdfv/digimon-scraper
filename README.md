@@ -39,7 +39,7 @@ DigimonScraper is a modular web application for browsing, searching, and explori
 
 ### 3. Data Scraping & Parsing
 - **Automated Scraping:** Scripts (`scrape_digimon_evolutions.js`, `scrape_digimon_moves.js`, etc.) fetch and parse data from external sources.
-- **CSV Output:** Data is saved in modular CSV files (`digimon_data.csv`, `digimon_evolutions.csv`, `digimon_moves.csv`, `digimon_icon_map.csv`).
+- **CSV Output:** Data is saved in modular CSV files (Digimon data, evolutions, moves, icon mappings). File paths are configurable via the global config in `config.js`.
 - **Icon Downloading:** PowerShell script (`download_digimon_icons.ps1`) automates downloading Digimon icons to the local folder.
 - **Robust Parsing:** Uses PapaParse for client-side CSV parsing, handling headers, duplicate rows, and malformed data.
 
@@ -72,7 +72,8 @@ DigimonScraper is a modular web application for browsing, searching, and explori
 ---
 
 ## Data Files
-- **digimon_data.csv:** Main Digimon dataset (name, stage, attribute, type).
+The application uses configurable CSV data sources defined in `config.js` via `window.DIGIMON_CSV_PATHS`:
+- **Digimon Data:** Main Digimon dataset (name, stage, attribute, type) - configurable path via `window.DIGIMON_CSV_PATHS.data`.
 - **digimon_evolutions.csv:** Evolution relationships between Digimons.
 - **digimon_moves.csv:** List of moves for each Digimon.
 - **digimon_icon_map.csv:** Maps Digimon names to local icon filenames.
