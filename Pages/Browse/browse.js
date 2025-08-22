@@ -25,8 +25,8 @@ window.initBrowseTab = function() {
         container.innerHTML = `<div class="alert alert-info mt-4">Loading Digimon data...</div>`;
     }
     Promise.all([
-		 fetchAndParseCSV('../../Database/digimon_data.csv'),
-		 fetch('../../Database/digimon_icon_map.csv').then(r => r.text())
+		 fetchAndParseCSV(window.DIGIMON_DATA_PATH_RELATIVE),
+		 fetch(window.DIGIMON_ICON_MAP_PATH_RELATIVE).then(r => r.text())
     ]).then(([digimonData, iconCsv]) => {
         // Parse icon map
         const iconMap = {};

@@ -19,7 +19,7 @@ function fetchAndParseCSV(path) {
 }
 
 window.initAggregateTab = function() {
-    fetchAndParseCSV('../../Database/digimon_data.csv').then(digimonData => {
+    fetchAndParseCSV(window.DIGIMON_DATA_PATH_RELATIVE).then(digimonData => {
         const columns = Object.keys(digimonData[0] || {});
         const primarySelect = document.getElementById('primaryColumn');
         const secondarySelect = document.getElementById('secondaryColumn');
