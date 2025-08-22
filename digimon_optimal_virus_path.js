@@ -5,6 +5,9 @@
 const fs = require('fs');
 const path = require('path');
 
+// Configuration - corresponds to window.DIGIMON_CSV_PATHS.data when available
+const DIGIMON_DATA_CSV = 'Database/digimon_data.csv';
+
 // Load CSV files
 function loadCSV(file) {
   return fs.readFileSync(path.join(__dirname, file), 'utf8').split(/\r?\n/).map(line => line.split(','));
@@ -22,8 +25,8 @@ const effectiveness = {
   Dark: ['Light']
 };
 
-// Parse Database/digimon_data.csv
-const digimonData = loadCSV('Database/digimon_data.csv');
+// Parse Digimon data CSV (corresponds to window.DIGIMON_CSV_PATHS.data)
+const digimonData = loadCSV(DIGIMON_DATA_CSV);
 const digimonHeader = digimonData[0];
 const digimonList = digimonData.slice(1).map(row => {
   return {

@@ -101,7 +101,7 @@ function findEvolutionPath(start, end, requiredDigimons, graph) {
 
 /**
  * Loads Digimon data from CSV.
- * @param {string} csvPath Path to digimon_data.csv
+ * @param {string} csvPath Path to Digimon data CSV (see window.DIGIMON_CSV_PATHS.data)
  * @returns {Object} { digimon: { attribute, type, ... } }
  */
 // Loads Digimon data from CSV text.
