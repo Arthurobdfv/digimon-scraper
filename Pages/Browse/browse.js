@@ -25,8 +25,8 @@ window.initBrowseTab = function() {
         container.innerHTML = `<div class="alert alert-info mt-4">Loading Digimon data...</div>`;
     }
     Promise.all([
-		 fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.data ? '../../' + window.DIGIMON_CSV_PATHS.data : '../../Database/digimon_data.csv'),
-		 fetch('../../Database/digimon_icon_map.csv').then(r => r.text())
+		 fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.data),
+		 fetch(window.DIGIMON_CSV_PATHS?.‎iconMap).then(r => r.text())
     ]).then(([digimonData, iconCsv]) => {
         // Parse icon map
         const iconMap = {};
@@ -103,3 +103,4 @@ function setupTable(data, iconMap) {
         });
     }, 0);
 }
+
