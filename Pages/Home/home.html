@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>DigimonScraper Home</title>
-    <link rel="stylesheet" href="../../bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../styles/global.css">
     <link rel="stylesheet" href="../../styles/home.css">
     <script>
@@ -26,7 +26,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card feature-card">
                         <div class="card-img-wrapper">
-                            <img src="'+iconDir+'Agumon-icon.png" class="card-img-top" alt="Browse">
+                            <img src="../../Icons/Digimon/Agumon-icon.png" class="card-img-top" alt="Browse">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Browse Digimon</h3>
@@ -39,7 +39,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card feature-card">
                         <div class="card-img-wrapper">
-                            <img src="'+iconDir+'Seraphimon-icon.png" class="card-img-top" alt="Details">
+                            <img src="../../Icons/Digimon/Seraphimon-icon.png" class="card-img-top" alt="Details">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Digimon Details</h3>
@@ -52,7 +52,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card feature-card">
                         <div class="card-img-wrapper">
-                            <img src="'+iconDir+'Patamon-icon.png" class="card-img-top" alt="Evolution Path">
+                            <img src="../../Icons/Digimon/Patamon-icon.png" class="card-img-top" alt="Evolution Path">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Evolution Planner</h3>
@@ -65,7 +65,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card feature-card">
                         <div class="card-img-wrapper">
-                            <img src="'+moveIconDir+'dark-icon.png" class="card-img-top" alt="Skill Info">
+                            <img src="../../Icons/Moves/dark-icon.png" class="card-img-top" alt="Skill Info">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Skill Database</h3>
@@ -78,7 +78,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card feature-card">
                         <div class="card-img-wrapper">
-                            <img src="'+moveIconDir+'dark-icon.png" class="card-img-top" alt="Skills">
+                            <img src="../../Icons/Moves/dark-icon.png" class="card-img-top" alt="Skills">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Skills Browser</h3>
@@ -91,7 +91,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card feature-card">
                         <div class="card-img-wrapper">
-                            <img src="'+iconDir+'Alphamon-icon.png" class="card-img-top" alt="Aggregate">
+                            <img src="../../Icons/Digimon/Alphamon-icon.png" class="card-img-top" alt="Aggregate">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">Team Analysis</h3>
@@ -103,6 +103,18 @@
             </div>
         </div>
     </div>
-    <script src="../../bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const iconDir = window.DIGIMON_CSV_PATHS?.iconDir || '../../Icons/Digimon/';
+  const moveIconDir = window.DIGIMON_CSV_PATHS?.moveIconDir || '../../Icons/Moves/';
+  document.querySelectorAll('img[data-icon]').forEach(img => {
+    img.src = iconDir + img.getAttribute('data-icon');
+  });
+  document.querySelectorAll('img[data-move-icon]').forEach(img => {
+    img.src = moveIconDir + img.getAttribute('data-move-icon');
+  });
+});
+</script>
 </body>
 </html>

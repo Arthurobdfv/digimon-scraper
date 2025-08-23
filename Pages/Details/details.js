@@ -149,17 +149,14 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 }
 
 window.initDetailsTab = function() {
+    let digimonName = window.selectedDigimonName;
+    if (!digimonName) {
+        digimonName = 'Agumon';
+    }
     Promise.all([
-		fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.data),
-		fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.evolutions)
+        fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.data),
+        fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.evolutions)
     ]).then(([digimonData, evolutionsData]) => {
-        // Get Digimon name from SPA global variable or query parameter
-        let digimonName = window.selectedDigimonName;
-        if (!digimonName) {
-            const params = new URLSearchParams(window.location.search);
-            digimonName = params.get('name') || digimonData[0].Name;
-        }
         renderDigimonDetails(digimonName, digimonData, evolutionsData);
     });
-
 };

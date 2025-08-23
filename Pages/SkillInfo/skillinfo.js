@@ -14,11 +14,9 @@ window.initSkillinfoTab = function () {
       const params = new URLSearchParams(window.location.search);
       skillName = params.get('name');
     }
-  }
-  if (!skillName) {
-    document.getElementById('skillNameHeader').textContent = 'Skill not found';
-    document.getElementById('skillInfoContainer').innerHTML = '<div class="alert alert-danger">No skill specified.</div>';
-    return;
+    if (!skillName) {
+      skillName = 'Acceleration Boost';
+    }
   }
   document.getElementById('skillNameHeader').textContent = skillName;
 
