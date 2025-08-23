@@ -460,8 +460,8 @@ Thunder Fall III,Icons/Moves/electric-icon.png,Electric,Physical,10,75,Yes
 Tidal Wave,Icons/Moves/water-icon.png,Water,Magic,15,65,No
 Tomahawk Stinger,Icons/Moves/neutral-icon.png,Neutral,Physical,20,130,No
 Top Gun,Icons/Moves/wind-icon.png,Wind,Magic,15,110,No
-Transcendent Sword,Icons/Moves/fire-icon.png,Fire,Physical,30,115,Yes
-Transcendent Sword,Icons/Moves/fire-icon.png,Fire,Physical,30,130,Yes
+Transcendent Sword,Icons/Moves/fire-icon.png,Fire,Physical,30,115,No
+Transcendent Sword,Icons/Moves/fire-icon.png,Fire,Physical,30,130,No
 Tri-Horn Attack,Icons/Moves/earth-icon.png,Earth,Physical,15,150,No
 Trick or Treat,Icons/Moves/neutral-icon.png,Neutral,Physical,15,100,No
 Trident Revolver,Icons/Moves/fire-icon.png,Fire,Physical,15,40,No
