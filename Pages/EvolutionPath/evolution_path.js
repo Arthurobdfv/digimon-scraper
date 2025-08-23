@@ -111,8 +111,8 @@ window.initEvolutionpathTab = function () {
         renderDropdown(input, dropdown, names);
         dropdown.classList.add('show');
       });
-      document.addEventListener('click', function(e) {
-        if (!dropdown.contains(e.target) && e.target !== input) {
+      document.addEventListener('mousedown', function(e) {
+        if (dropdown.classList.contains('show') && !dropdown.contains(e.target) && e.target !== input) {
           dropdown.classList.remove('show');
         }
       });
@@ -123,6 +123,8 @@ window.initEvolutionpathTab = function () {
         }
       });
     }
+    digimonInput1.disabled = false;
+    digimonInput2.disabled = false;
     setupFilter(digimonInput1, dropdown1, names);
     setupFilter(digimonInput2, dropdown2, names);
     // Moves dropdown
@@ -451,3 +453,12 @@ window.getMovesFromThreatAnalysis = function(initialDigimon, finalDigimon, topN 
     return [];
   });
 };
+
+if (!window.evolutionPathTabInitialized) {
+  window.evolutionPathTabInitialized = true;
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', window.initEvolutionpathTab);
+  } else {
+    window.initEvolutionpathTab();
+  }
+}

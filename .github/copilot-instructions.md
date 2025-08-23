@@ -212,13 +212,49 @@ Document any additional commit message requirements here as the project evolves.
 - For deployment (GitHub Pages, etc.), ensure all CSVs are in `data/` and paths in JS/HTML reference `data/`.
 
 ## Project-Specific Conventions
-- Any data-fixing or one-off scripts (not part of the main application) should be placed in the `Temp/` folder. This includes scripts for migration, validation, or batch fixes that are only run occasionally.
--- All data fetches in browser code must use the paths defined in `config.js` (window.DIGIMON_CSV_PATHS) instead of hardcoded strings. This ensures maintainability and consistency. Update any legacy code to use the config object for all CSV references.
-- SPA navigation uses hash-based URLs (e.g., `#skillinfo?name=MoveName`) for deep linking.
+
+## SPA Redirection Guidelines
+
+### Reasoning & Architecture
+- DigimonScraper is a modular Single Page Application (SPA) managed via `index.html`.
+- Navigation between tabs/screens is handled dynamically using hash-based URLs (e.g., `#skillinfo?name=MoveName`).
+- SPA routing ensures a seamless user experience, preserves UI state, and supports deep linking/bookmarking.
+
+### Guidelines
+1. **Hash-Based Routing**
+    - Always redirect to tabs/screens using hash URLs: `/index.html#tabname?param=value`
+    - Example: `/index.html#skillinfo?name=MoveName`
+    - This triggers the SPA loader to dynamically load the correct tab content.
+
+2. **Tab Registration**
+    - All tabs/screens must be registered in the SPA loader (`tabMap` in `index.html`).
+    - Update the navbar and `tabMap` when adding new tabs.
+
+3. **Avoid Direct File Links**
+    - Do not link directly to HTML files (e.g., `/Pages/SkillInfo/skillinfo.html`).
+    - Direct file links bypass SPA logic, cause full reloads, and may result in 404 errors.
+
+4. **Consistent Link Generation**
+    - Generate all internal navigation links in JS/HTML using the SPA hash format.
+    - Example:
+      `<a href="/index.html#skillinfo?name=${encodeURIComponent(skillName)}">Skill Info</a>`
+
+5. **Deep Linking & Bookmarking**
+    - Hash-based URLs allow users to bookmark/share direct links to specific tabs/screens with parameters.
+
+6. **Testing**
+    - Test navigation from all tabs to ensure links trigger SPA routing and load content as expected.
+
+### Implementation Notes
+- SPA navigation uses hash-based URLs for deep linking.
 - Skill links in tables use SPA navigation, not direct HTML links.
-- Move learning and pathfinding logic is modularized for both UI and Node use (see `getDigimonsForMove.js`, `evolution_path.js`).
-- Debug/progress logs are written to `.txt` files for long-running Node scripts.
-- All CSV parsing uses PapaParse for consistency.
+- To add a new tab/screen, create the HTML/JS in `Pages/`, update the navbar and `tabMap` in `index.html`.
+- All screens share `styles/global.css` for consistent theming.
+- Maintain glass morphism aesthetic and consistent card-based layouts across all tabs.
+
+---
+
+For all internal navigation, use `/index.html#tabname?params` to leverage SPA routing. Never link directly to HTML files for tab navigation. This ensures smooth, consistent, and maintainable user experience across the DigimonScraper application.
 
 ## Integration Points & Dependencies
 - External dependencies: PapaParse (browser), Bootstrap (UI), Node.js (for scripts).
