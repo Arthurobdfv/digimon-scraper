@@ -24,8 +24,6 @@ DigimonScraper/
 │   │   ├── skillinfo.html        # Skill info tab UI
 │   │   └── skillinfo.js          # Skill info tab logic
 │   └── Pathfinder/
-│       ├── pathfinder_tab.html   # Pathfinder tab UI
-│       └── digimon_pathfinder_tab.js # Pathfinder tab logic
 ├── Icons/
 │   ├── Digimon/                  # Digimon icon images
 │   └── Moves/                    # Move icon images

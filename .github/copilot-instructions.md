@@ -1,3 +1,11 @@
+## UI Extension: Adding New Tabs/Screens
+- To add a new tab/screen:
+	1. Create a new HTML file (e.g., `newtab.html`) and a corresponding JS file (e.g., `newtab.js`) in the appropriate directory.
+	2. Add the tab's content and logic, following the modular pattern (Bootstrap navbar, content containers, JS logic at the bottom).
+	3. Update the navbar in every existing HTML file to include the new tab, ensuring consistent order and highlighting with the `active` class.
+- Example: For a "Skill Info" tab, create `skillinfo.html` and `skillinfo.js`, add the screen code, and update all navbars.
+- Best practices: Use the same navbar structure for all screens, place the new tab logically, test navigation, and keep code modular (one HTML/JS per tab).
+- Refer to `Documentation/add_new_tab_guide.md` for step-by-step instructions and examples.
 # Copilot Instructions for DigimonScraper
 
 ## Big Picture Architecture & Strategic Insights
