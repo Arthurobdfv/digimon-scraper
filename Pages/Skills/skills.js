@@ -3,7 +3,7 @@
 // Loads digimon_moves_complete.csv and renders a filterable table
 
 window.initSkillsTab = function () {
-  const csvFile = 'Database/digimon_moves_complete.csv';
+  const csvFile = window.DIGIMON_CSV_PATHS.movesComplete;
   const tableContainer = document.getElementById('skillsTableContainer');
   const filtersContainer = document.getElementById('skillFilters');
 
@@ -28,7 +28,7 @@ window.initSkillsTab = function () {
     if (!container) return;
     let dropdownHtml = `<label class="form-label fw-bold">${label}</label>
       <div class="dropdown">
-        <button class="btn btn-outline-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select</button>
+        <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">Select ${label}</button>
         <ul class="dropdown-menu" style="max-height: 250px; overflow-y: auto;">
           <li><label class="dropdown-item"><input type="checkbox" value="__ALL__" ${selected.length === values.length ? 'checked' : ''}> <strong>All</strong></label></li>
           ${values.map(v => `<li><label class="dropdown-item"><input type="checkbox" value="${v}" ${selected.includes(v) ? 'checked' : ''}> ${v}</label></li>`).join('')}

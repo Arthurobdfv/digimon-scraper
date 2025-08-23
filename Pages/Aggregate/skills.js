@@ -2,7 +2,7 @@
 // Loads digimon_moves_complete.csv and renders a filterable table
 
 document.addEventListener('DOMContentLoaded', function () {
-  const csvFile = '../../Database/digimon_moves_complete.csv';
+  const csvFile = window.DIGIMON_CSV_PATHS.movesComplete;
   const tableContainer = document.getElementById('skillsTableContainer');
   const filtersContainer = document.getElementById('skillFilters');
 

@@ -1,46 +1,88 @@
 
-<h2>Digimon Evolution Path Finder</h2>
-<form id="pathfinder-form" class="row g-3 mb-4">
-  <div class="col-md-4">
-    <label for="startDigimon" class="form-label">Starting Digimon</label>
-    <div class="dropdown">
-      <input id="startDigimon" class="form-control" autocomplete="off" data-bs-toggle="dropdown" aria-expanded="false" placeholder="Type or select Digimon..." />
-      <ul class="dropdown-menu w-100" id="startDigimonDropdown"></ul>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="finalDigimon" class="form-label">Final Digimon Form</label>
-    <div class="dropdown">
-      <input id="finalDigimon" class="form-control" autocomplete="off" data-bs-toggle="dropdown" aria-expanded="false" placeholder="Type or select Digimon..." />
-      <ul class="dropdown-menu w-100" id="finalDigimonDropdown"></ul>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <label for="moveSelect" class="form-label">Moves Required <span class="text-muted">(multi-select)</span></label>
-    <div class="dropdown">
-      <input id="moveSelectInput" class="form-control" autocomplete="off" data-bs-toggle="dropdown" aria-expanded="false" placeholder="Type to search moves..." />
-      <ul class="dropdown-menu w-100" id="moveSelectDropdown"></ul>
-    </div>
-    <div id="selectedMoves" class="mt-2"></div>
-  </div>
-  <label for="moveType" class="form-label">Move Type</label>
-  <select id="moveType" class="form-select mb-2">
-    <option value="Physical">Physical</option>
-    <option value="Magical">Magical</option>
-  </select>
-  <div class="form-check mb-2">
-    <input class="form-check-input" type="checkbox" id="optimizeMovesCheckbox">
-    <label class="form-check-label" for="optimizeMovesCheckbox">Optimize Moves (use Threat Analysis)</label>
-  </div>
-  <div class="mb-2">
-    <label for="topThreadsInput" class="form-label">Number of Top Threads to Analyze</label>
-  <input type="number" id="topThreadsInput" class="form-control" value="5" min="1" max="8">
-  </div>
-  <button id="calcPathBtn" class="btn btn-primary w-100" type="button">Calculate Path</button>
-  <button id="downloadJsonBtn" class="btn btn-secondary w-100 mt-2" type="button">Download Selection as JSON</button>
-</form>
-<div class="row">
-  <div class="col-md-12">
-    <div id="pathfinder-results"></div>
-  </div>
+<div class="container-fluid">
+	<div class="row mb-4">
+		<div class="col-12">
+			<div class="card">
+				<div class="card-header">
+					<h2 class="mb-0">Evolution Path Planner</h2>
+				</div>
+				<div class="card-body">
+					<p class="mb-0">Plan optimal evolution paths and discover the best routes to your desired Digimon.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="card mb-4">
+		<div class="card-header">
+			<h4 class="mb-0">Path Configuration</h4>
+		</div>
+		<div class="card-body">
+			<form id="pathfinder-form" class="row g-3">
+			  <div class="col-md-4">
+			    <label for="startDigimon" class="form-label">Starting Digimon</label>
+			    <div class="dropdown">
+			      <input id="startDigimon" class="form-control" autocomplete="off" data-bs-toggle="dropdown" aria-expanded="false" placeholder="Type or select Digimon..." />
+			      <ul class="dropdown-menu w-100" id="startDigimonDropdown"></ul>
+			    </div>
+			  </div>
+			  <div class="col-md-4">
+			    <label for="finalDigimon" class="form-label">Final Digimon Form</label>
+			    <div class="dropdown">
+			      <input id="finalDigimon" class="form-control" autocomplete="off" data-bs-toggle="dropdown" aria-expanded="false" placeholder="Type or select Digimon..." />
+			      <ul class="dropdown-menu w-100" id="finalDigimonDropdown"></ul>
+			    </div>
+			  </div>
+			  <div class="col-md-4">
+			    <label for="moveSelect" class="form-label">Moves Required <span class="text-muted">(multi-select)</span></label>
+			    <div class="dropdown">
+			      <input id="moveSelectInput" class="form-control" autocomplete="off" data-bs-toggle="dropdown" aria-expanded="false" placeholder="Type to search moves..." />
+			      <ul class="dropdown-menu w-100" id="moveSelectDropdown"></ul>
+			    </div>
+			    <div id="selectedMoves" class="mt-2"></div>
+			  </div>
+			  <div class="col-md-6">
+			  	<label for="moveType" class="form-label">
+			  		Move Type
+			  		<span class="info-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" 
+			  			  title="Specifies whether to prioritize Physical or Magical moves when optimizing movesets for threat coverage">i</span>
+			  	</label>
+			  	<select id="moveType" class="form-select mb-2">
+			    	<option value="Physical">Physical</option>
+			    	<option value="Magical">Magical</option>
+			  	</select>
+			  </div>
+			  <div class="col-md-6">
+			    <label for="topThreadsInput" class="form-label">
+			    	Number of Top Threads to Analyze
+			    	<span class="info-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" 
+			    		  title="How many of the most threatening enemy types to analyze when optimizing movesets. Higher numbers provide better coverage but may slow down calculations">i</span>
+			    </label>
+			  	<input type="number" id="topThreadsInput" class="form-control" value="5" min="1" max="8">
+			  </div>
+			  <div class="col-12">
+			  	<div class="form-check mb-3">
+			    	<input class="form-check-input" type="checkbox" id="optimizeMovesCheckbox">
+			    	<label class="form-check-label" for="optimizeMovesCheckbox">
+			    		Optimize Moves (use Threat Analysis)
+			    		<span class="info-tooltip" data-bs-toggle="tooltip" data-bs-placement="top" 
+			    			  title="Analyzes enemy type/attribute combinations and selects moves that provide optimal coverage against the most common threats. Uses the specified Move Type and analyzes the top N most threatening enemy combinations">i</span>
+			    	</label>
+			  	</div>
+			  </div>
+			  <div class="col-md-6">
+			  	<button id="calcPathBtn" class="btn btn-primary w-100" type="button">Calculate Path</button>
+			  </div>
+			  <div class="col-md-6">
+			  	<button id="downloadJsonBtn" class="btn btn-secondary w-100" type="button">Download Selection as JSON</button>
+			  </div>
+			</form>
+		</div>
+	</div>
+
+	<div class="row">
+	  <div class="col-md-12">
+	    <div id="pathfinder-results"></div>
+	  </div>
+	</div>
 </div>

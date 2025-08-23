@@ -3,6 +3,13 @@
 window.initEvolutionpathTab = function () {
   // ...existing code...
   console.log('[EvolutionPath] initEvolutionpathTab called');
+  
+  // Initialize Bootstrap tooltips
+  const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+  const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+  
   const digimonInput1 = document.getElementById('startDigimon');
   const digimonInput2 = document.getElementById('finalDigimon');
   const dropdown1 = document.getElementById('startDigimonDropdown');
@@ -25,15 +32,15 @@ window.initEvolutionpathTab = function () {
   }
 
   Promise.all([
-    fetch(window.DIGIMON_CSV_PATHS?.data ? window.DIGIMON_CSV_PATHS.data.replace('Database/', 'data/') : 'data/digimon_data.csv').then(r => {
+  fetch(window.DIGIMON_CSV_PATHS.data).then(r => {
       if (!r.ok) throw new Error('Failed to fetch Digimon data CSV');
       return r.text();
     }),
-    fetch('data/digimon_icon_map.csv').then(r => {
+  fetch(window.DIGIMON_CSV_PATHS.iconMap).then(r => {
       if (!r.ok) throw new Error('Failed to fetch digimon_icon_map.csv');
       return r.text();
     }),
-    fetch('data/digimon_moves_complete.csv').then(r => {
+  fetch(window.DIGIMON_CSV_PATHS.movesComplete).then(r => {
       if (!r.ok) throw new Error('Failed to fetch digimon_moves_complete.csv');
       return r.text();
     })
@@ -183,8 +190,8 @@ window.initEvolutionpathTab = function () {
           const moveGroups = movesToUse.map(m => Array.isArray(m) ? m : [m]);
           resultContainer.innerHTML = '<div class="alert alert-info">Calculating path and movesets...';
           Promise.all([
-            fetch('data/digimon_evolutions.csv').then(r => r.text()),
-            fetch('data/digimon_moves.csv').then(r => r.text())
+            fetch(window.DIGIMON_CSV_PATHS.evolutions).then(r => r.text()),
+            fetch(window.DIGIMON_CSV_PATHS.moves).then(r => r.text())
           ]).then(([evoText, movesCsvText]) => {
             const evolutionsCsv = Papa.parse(evoText, { header: true }).data;
             const movesCsv = Papa.parse(movesCsvText, { header: true }).data;
@@ -354,8 +361,8 @@ window.runPathfindingFromJsonFile = function (file, callback) {
       const selection = JSON.parse(e.target.result);
       // Fetch required CSVs
       Promise.all([
-  fetch('data/digimon_evolutions.csv').then(r => r.text()),
-  fetch('data/digimon_moves.csv').then(r => r.text())
+  fetch(window.DIGIMON_CSV_PATHS.evolutions).then(r => r.text()),
+  fetch(window.DIGIMON_CSV_PATHS.moves).then(r => r.text())
       ]).then(([evoText, movesCsvText]) => {
         const evolutionsCsv = Papa.parse(evoText, { header: true }).data;
         const movesCsv = Papa.parse(movesCsvText, { header: true }).data;
@@ -424,8 +431,8 @@ window.runPathfindingFromJsonFile = function (file, callback) {
 window.getMovesFromThreatAnalysis = function(initialDigimon, finalDigimon, topN = 5) {
   // Load moves CSVs synchronously (must be async in UI, so return Promise)
   return Promise.all([
-  fetch('data/digimon_moves.csv').then(r => r.text()),
-  fetch('data/digimon_moves_complete.csv').then(r => r.text())
+  fetch(window.DIGIMON_CSV_PATHS.moves).then(r => r.text()),
+  fetch(window.DIGIMON_CSV_PATHS.movesComplete).then(r => r.text())
   ]).then(([movesCsvText, movesCompleteCsvText]) => {
     const movesList = Papa.parse(movesCsvText, { header: true }).data;
     const movesComplete = Papa.parse(movesCompleteCsvText, { header: true }).data;

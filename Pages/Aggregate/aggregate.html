@@ -1,13 +1,34 @@
-<div class="container">
-	<div class="row mb-3">
-		<div class="col-md-6">
-			<label for="primaryColumn" class="form-label">Aggregate by:</label>
-			<select id="primaryColumn" class="form-select"></select>
-		</div>
-		<div class="col-md-6">
-			<label for="secondaryColumn" class="form-label">Then by (optional):</label>
-			<select id="secondaryColumn" class="form-select"></select>
+<div class="container-fluid">
+	<div class="row mb-4">
+		<div class="col-12">
+			<div class="card">
+				<div class="card-header">
+					<h2 class="mb-0">Team Analysis & Aggregation</h2>
+				</div>
+				<div class="card-body">
+					<p class="mb-0">Analyze team composition and Digimon distribution with advanced aggregation tools.</p>
+				</div>
+			</div>
 		</div>
 	</div>
+
+	<div class="card mb-4">
+		<div class="card-header">
+			<h4 class="mb-0">Aggregation Settings</h4>
+		</div>
+		<div class="card-body">
+			<div class="row">
+				<div class="col-md-6">
+					<label for="primaryColumn" class="form-label">Aggregate by:</label>
+					<select id="primaryColumn" class="form-select"></select>
+				</div>
+				<div class="col-md-6">
+					<label for="secondaryColumn" class="form-label">Then by (optional):</label>
+					<select id="secondaryColumn" class="form-select"></select>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div id="aggregateTableContainer"></div>
- </div>
+</div>

@@ -36,24 +36,26 @@ window.initSkillinfoTab = function () {
     }
   });
 
-  function renderSkillInfo(skill) {
+  function renderSkillInfo(skills) {
     let html = '';
     skills.forEach(skill => {
-      html += `<div class="row align-items-center mb-3">
-        <div class="col-auto">
-          <img src="${skill['Icon']}" class="icon-img" alt="icon">
-        </div>
-        <div class="col">
-          <table class="table table-sm mb-0">
-            <tbody>
-              <tr><th>Move</th><td>${skill['Move']}</td></tr>
-              <tr><th>Attribute</th><td>${skill['Attribute']}</td></tr>
-              <tr><th>Type</th><td>${skill['Type']}</td></tr>
-              <tr><th>SP Cost</th><td>${skill['SP Cost']}</td></tr>
-              <tr><th>Power</th><td>${skill['Power']}</td></tr>
-              <tr><th>Inheritable</th><td>${skill['Inheritable']}</td></tr>
-            </tbody>
-          </table>
+      html += `<div class="skill-detail-container">
+        <div class="row align-items-center">
+          <div class="col-auto">
+            <img src="${skill['Icon']}" class="icon-img" alt="icon" style="width: 64px; height: 64px;">
+          </div>
+          <div class="col">
+            <table class="table table-sm mb-0">
+              <tbody>
+                <tr><th>Move</th><td>${skill['Move']}</td></tr>
+                <tr><th>Attribute</th><td>${skill['Attribute']}</td></tr>
+                <tr><th>Type</th><td>${skill['Type']}</td></tr>
+                <tr><th>SP Cost</th><td>${skill['SP Cost']}</td></tr>
+                <tr><th>Power</th><td>${skill['Power']}</td></tr>
+                <tr><th>Inheritable</th><td>${skill['Inheritable']}</td></tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>`;
     });
@@ -64,14 +66,14 @@ window.initSkillinfoTab = function () {
   // Join digimon_moves_complete and digimon_moves for all learners
   Promise.all([
     new Promise(resolve => {
-  Papa.parse('data/digimon_moves_complete.csv', {
+    Papa.parse(window.DIGIMON_CSV_PATHS.movesComplete, {
         header: true,
         download: true,
         complete: results => resolve(results.data)
       });
     }),
     new Promise(resolve => {
-  Papa.parse('data/digimon_moves.csv', {
+    Papa.parse(window.DIGIMON_CSV_PATHS.moves, {
         header: true,
         download: true,
         complete: results => resolve(results.data)
@@ -97,7 +99,7 @@ window.initSkillinfoTab = function () {
       document.getElementById('digimonListContainer').innerHTML = '<div class="alert alert-info">No Digimon learns this skill.</div>';
       return;
     }
-  fetch('data/digimon_icon_map.csv').then(r => r.text()).then(csvText => {
+    fetch(window.DIGIMON_CSV_PATHS.iconMap).then(r => r.text()).then(csvText => {
       const lines = csvText.split(/\r?\n/).slice(1);
       const iconMap = {};
       lines.forEach(line => {
