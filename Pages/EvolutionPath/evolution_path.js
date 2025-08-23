@@ -118,6 +118,8 @@ window.initEvolutionpathTab = function () {
       });
       dropdown.addEventListener('click', function(e) {
         if (e.target.classList.contains('digimon-option')) {
+          e.preventDefault(); // Prevent default navigation
+          // Only set input value, do not update hash or navigate
           input.value = e.target.getAttribute('data-value');
           dropdown.classList.remove('show');
         }
@@ -246,7 +248,8 @@ window.initEvolutionpathTab = function () {
                     return `<a href="#" class="skill-details-link" data-skill="${encodeURIComponent(info.move)}">${info.move}</a> - Level ${info.level}, ${elementIcon}${moveDetails.Type || ''}, Power ${moveDetails.Power || ''}`;
                   }).join('<br>');
                 }
-                html += `<li>${d}${extra ? `<br><span class='move-learner'>${extra}</span>` : ''}</li>`;
+                // Digimon name as SPA link to details tab
+                html += `<li><a href="#" class="digimon-details-link" data-digimon="${encodeURIComponent(d)}">${d}</a>${extra ? `<br><span class='move-learner'>${extra}</span>` : ''}</li>`;
               });
               html += '</ol>';
               html += `<h4>Moves Required</h4><ul>`;
@@ -267,16 +270,20 @@ window.initEvolutionpathTab = function () {
               html += '<div class="alert alert-danger">No valid path found for selected Digimon and moves.';
             }
             resultContainer.innerHTML = html;
-            // Add event listeners for skill-details-link to switch tab and load skill
+            // Add event listeners for skill-details-link and digimon-details-link for SPA navigation
             setTimeout(() => {
               Array.from(document.getElementsByClassName('skill-details-link')).forEach(link => {
                 link.addEventListener('click', function(e) {
                   e.preventDefault();
                   const skillName = decodeURIComponent(this.getAttribute('data-skill'));
-                  window.location.hash = `#skillinfo?name=${encodeURIComponent(skillName)}`;
-                  if (window.loadTab) {
-                    window.loadTab('skillinfo', { skillName });
-                  }
+                  window.navigateToTab('skillinfo', { name: skillName });
+                });
+              });
+              Array.from(document.getElementsByClassName('digimon-details-link')).forEach(link => {
+                link.addEventListener('click', function(e) {
+                  e.preventDefault();
+                  const digimonName = decodeURIComponent(this.getAttribute('data-digimon'));
+                  window.navigateToTab('details', { name: digimonName });
                 });
               });
             }, 0);
