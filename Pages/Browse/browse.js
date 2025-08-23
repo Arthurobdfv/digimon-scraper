@@ -34,8 +34,8 @@ window.initBrowseTab = function() {
 			const match = line.match(/^"?(.*?)"?,(.*)$/);
 			if (match) {
 				let name = match[1].replace(/"/g, '').trim().replace(/[()]/g, '');
-				// Remove parentheses from name for icon lookup
-				iconMap[name] = `../../Icons/Digimon/${name}-icon.png`;
+				const iconDir = window.DIGIMON_CSV_PATHS.iconDir || '../../Icons/Digimon/';
+				iconMap[name] = `${iconDir}${name}-icon.png`;
 			}
         });
         setupTable(digimonData, iconMap);

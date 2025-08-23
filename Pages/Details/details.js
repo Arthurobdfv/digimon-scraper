@@ -50,7 +50,8 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 			const match = line.match(/^"?(.*?)"?,(.*)$/);
 			if (match) {
 				const name = match[1].replace(/[()]/g, '').trim();
-				iconMap[name] = `../../Icons/Digimon/${encodeURIComponent(name.replace(/[^a-zA-Z0-9\-_. ]/g, '') + '-icon.png')}`;
+				const iconDir = window.DIGIMON_CSV_PATHS.iconDir || '../../Icons/Digimon/';
+				iconMap[name] = `${iconDir}${encodeURIComponent(name.replace(/[^a-zA-Z0-9\-_. ]/g, '') + '-icon.png')}`;
 			}
 		});
 		const iconPath = iconMap[digimon.Name.replace(/[()]/g, '').trim()] || '';

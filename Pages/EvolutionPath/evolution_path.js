@@ -51,12 +51,13 @@ window.initEvolutionpathTab = function () {
     // Digimon dropdowns
     const dataResults = Papa.parse(dataCsv, { header: true }).data;
     const iconResults = Papa.parse(iconCsv, { header: true }).data;
+    const iconDir = window.DIGIMON_CSV_PATHS.iconDir || 'Icons/Digimon/';
     console.log('[EvolutionPath] Parsed Digimon data CSV:', dataResults);
     console.log('[EvolutionPath] Parsed digimon_icon_map.csv:', iconResults);
     const iconMap = {};
     iconResults.forEach(row => {
       if (row.Name && row.Icon) {
-        iconMap[row.Name.replace(/^"|"$/g, '')] = `Icons/Digimon/${encodeURIComponent(row.Icon.replace(/^"|"$/g, ''))}`;
+        iconMap[row.Name.replace(/^"|"$/g, '')] = `${iconDir}${encodeURIComponent(row.Icon.replace(/^"|"$/g, ''))}`;
       }
     });
     const names = dataResults
@@ -236,8 +237,8 @@ window.initEvolutionpathTab = function () {
                     let elementIcon = '';
                     if (moveDetails.Attribute) {
                       const attr = moveDetails.Attribute.trim().toLowerCase();
-                      // Map attribute to icon filename (assume lowercase, e.g. 'fire' => 'fire-icon.png')
-                      elementIcon = `<img src='Icons/Moves/${attr}-icon.png' alt='${attr}' style='width:18px;height:18px;vertical-align:middle;margin-right:2px;'>`;
+                      const moveIconDir = window.DIGIMON_CSV_PATHS.moveIconDir || 'Icons/Moves/';
+                      elementIcon = `<img src='${moveIconDir}${attr}-icon.png' alt='${attr}' style='width:18px;height:18px;vertical-align:middle;margin-right:2px;'>`;
                     }
                     // Format: link, level, element icon, type, power
                     return `<a href="#" class="skill-details-link" data-skill="${encodeURIComponent(info.move)}">${info.move}</a> - Level ${info.level}, ${elementIcon}${moveDetails.Type || ''}, Power ${moveDetails.Power || ''}`;
@@ -253,7 +254,8 @@ window.initEvolutionpathTab = function () {
                 let elementIcon = '';
                 if (moveDetails.Attribute) {
                   const attr = moveDetails.Attribute.trim().toLowerCase();
-                  elementIcon = `<img src='Icons/Moves/${attr}-icon.png' alt='${attr}' style='width:18px;height:18px;vertical-align:middle;margin-right:2px;'>`;
+                  const moveIconDir = window.DIGIMON_CSV_PATHS.moveIconDir || 'Icons/Moves/';
+                  elementIcon = `<img src='${moveIconDir}${attr}-icon.png' alt='${attr}' style='width:18px;height:18px;vertical-align:middle;margin-right:2px;'>`;
                 }
                 const moveDisplayName = Array.isArray(moveName) ? moveName.join(', ') : moveName;
                 html += `<li>${elementIcon}<a href="#" class="skill-details-link" data-skill="${encodeURIComponent(moveDisplayName)}">${moveDisplayName}</a> - ${moveDetails.Type || ''}, Power ${moveDetails.Power || ''}</li>`;

@@ -22,7 +22,7 @@ window.initSkillinfoTab = function () {
   }
   document.getElementById('skillNameHeader').textContent = skillName;
 
-  Papa.parse('data/digimon_moves_complete.csv', {
+  Papa.parse(window.DIGIMON_CSV_PATHS.movesComplete, {
     header: true,
     download: true,
     complete: function (results) {
@@ -102,11 +102,12 @@ window.initSkillinfoTab = function () {
     fetch(window.DIGIMON_CSV_PATHS.iconMap).then(r => r.text()).then(csvText => {
       const lines = csvText.split(/\r?\n/).slice(1);
       const iconMap = {};
+      const iconDir = window.DIGIMON_CSV_PATHS.iconDir || 'Icons/Digimon/';
       lines.forEach(line => {
         const match = line.match(/^"?(.*?)"?,(.*)$/);
         if (match) {
           const name = match[1];
-          iconMap[name] = `Icons/Digimon/${encodeURIComponent(name.replace(/[^a-zA-Z0-9\-_. ]/g, '') + '-icon.png')}`;
+          iconMap[name] = `${iconDir}${encodeURIComponent(name.replace(/[^a-zA-Z0-9\-_. ]/g, '') + '-icon.png')}`;
         }
       });
       digimons.sort((a, b) => Number(a['Level']) - Number(b['Level']));
