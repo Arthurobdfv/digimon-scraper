@@ -126,10 +126,8 @@ window.initSkillsTab = function () {
       Array.from(document.getElementsByClassName('skill-details-link')).forEach(link => {
         link.addEventListener('click', function(e) {
           e.preventDefault();
-          if (window.loadTab) {
-            window.selectedSkillName = this.getAttribute('data-skill');
-            window.loadTab('skillinfo');
-          }
+          const skillName = this.getAttribute('data-skill');
+          window.navigateToTab('skillinfo', { name: skillName });
         });
       });
     }, 0);

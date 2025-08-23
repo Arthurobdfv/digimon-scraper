@@ -87,7 +87,7 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 					if (isNaN(levelB)) return -1;
 					return levelA - levelB;
 				});
-				movesHtml += `<h4>Moves Learned</h4><div class=\"table-responsive\"><table class=\"table table-bordered table-hover align-middle\"><thead class=\"table-light\">
+					movesHtml += `<h4>Moves Learned</h4><div class=\"table-responsive\"><table class=\"table table-bordered table-hover align-middle\"><thead class=\"table-light\">
 					<tr><th>Element</th><th>Move</th><th>Type</th><th>Power</th><th>Level</th></tr>
 				</thead><tbody>`;
 				allMoves.forEach(row => {
@@ -100,7 +100,7 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 					}
 					movesHtml += `<tr>
 						<td>${elementIcon}</td>
-						<td><a href=\"../SkillInfo/skillinfo.html?name=${encodeURIComponent(row.Move)}\" target=\"_blank\">${row.Move}</a></td>
+						<td><a href='#' class='skill-details-link' data-skill='${row.Move}'>${row.Move}</a></td>
 						<td>${moveDetails.Type || ''}</td>
 						<td>${moveDetails.Power || ''}</td>
 						<td>${row.Level || ''}</td>
@@ -142,6 +142,14 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 					e.preventDefault();
 					const name = this.getAttribute('data-name');
 					renderDigimonDetails(name, digimonData, evolutionsData);
+				});
+			});
+			// SPA navigation for skill links (matches skills.js)
+			Array.from(document.getElementsByClassName('skill-details-link')).forEach(link => {
+				link.addEventListener('click', function(e) {
+					e.preventDefault();
+					const skillName = this.getAttribute('data-skill');
+					window.navigateToTab('skillinfo', { name: skillName });
 				});
 			});
 		});
