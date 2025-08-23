@@ -31,12 +31,12 @@ window.initBrowseTab = function() {
         // Parse icon map
         const iconMap = {};
         iconCsv.split(/\r?\n/).slice(1).forEach(line => {
-            const match = line.match(/^"?(.*?)"?,(.*)$/);
-            if (match) {
-                let name = match[1].replace(/"/g, '').trim();
-                // Use the name as-is for the local icon filename, just add -icon.png
-                 iconMap[name] = `../../Icons/Digimon/${name}-icon.png`;
-            }
+			const match = line.match(/^"?(.*?)"?,(.*)$/);
+			if (match) {
+				let name = match[1].replace(/"/g, '').trim().replace(/[()]/g, '');
+				// Remove parentheses from name for icon lookup
+				iconMap[name] = `../../Icons/Digimon/${name}-icon.png`;
+			}
         });
         setupTable(digimonData, iconMap);
     }).catch(err => {
@@ -73,7 +73,7 @@ function setupTable(data, iconMap) {
 		filtered.forEach((row, idx) => {
 			// Skip the first row if it looks like a header
 			if (idx === 0 && Object.values(row).some(v => v === 'Name' || v === 'Stage' || v === 'Attribute' || v === 'Type')) return;
-			let rowName = (row.Name || '').replace(/"/g, '').trim();
+			let rowName = (row.Name || '').replace(/"/g, '').trim().replace(/[()]/g, '');
 			const iconPath = iconMap[rowName] || '';
 			html += '<tr>';
 			html += (iconPath ? `<td><img src="${iconPath}" class="icon-img" alt="icon"></td>` : '<td></td>');

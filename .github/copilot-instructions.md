@@ -7,6 +7,25 @@
 - Best practices: Use the same navbar structure for all screens, place the new tab logically, test navigation, and keep code modular (one HTML/JS per tab).
 - Refer to `Documentation/add_new_tab_guide.md` for step-by-step instructions and examples.
 # Copilot Instructions for DigimonScraper
+## Commit Message Guidelines for Copilot
+
+When Copilot generates commits, follow these rules:
+
+- Always include a summary of the change in the first line (max 72 characters).
+- List all affected files or modules in the commit body.
+- Briefly describe the reason for the change and its impact.
+- Use imperative mood (e.g., "Fix bug" not "Fixed bug").
+- If the commit is related to a user request, reference the request or issue number if available.
+
+Example:
+
+	Update browse.js to fix Digimon icon loading
+
+	- Modified browse.js to remove parentheses from icon lookup
+	- Resolves 404 errors for icons with parentheses
+	- Affected: Pages/Browse/browse.js
+
+Document any additional commit message requirements here as the project evolves.
 
 ## Big Picture Architecture & Strategic Insights
 - The project is a modular web application for browsing, searching, and analyzing Digimon data, evolutions, and moves.
@@ -37,6 +56,7 @@
 - For deployment (GitHub Pages, etc.), ensure all CSVs are in `data/` and paths in JS/HTML reference `data/`.
 
 ## Project-Specific Conventions
+- Any data-fixing or one-off scripts (not part of the main application) should be placed in the `Temp/` folder. This includes scripts for migration, validation, or batch fixes that are only run occasionally.
 - All data fetches in browser code use relative paths to `Database/` (not `data/`).
 - SPA navigation uses hash-based URLs (e.g., `#skillinfo?name=MoveName`) for deep linking.
 - Skill links in tables use SPA navigation, not direct HTML links.

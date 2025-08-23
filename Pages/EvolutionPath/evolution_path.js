@@ -49,7 +49,7 @@ window.initEvolutionpathTab = function () {
     const iconMap = {};
     iconResults.forEach(row => {
       if (row.Name && row.Icon) {
-        iconMap[row.Name.replace(/^"|"$/g, '')] = `Icons/Digimon/${row.Icon.replace(/^"|"$/g, '')}`;
+        iconMap[row.Name.replace(/^"|"$/g, '')] = `Icons/Digimon/${encodeURIComponent(row.Icon.replace(/^"|"$/g, ''))}`;
       }
     });
     const names = dataResults

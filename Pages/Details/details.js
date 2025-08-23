@@ -34,7 +34,7 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 			const match = line.match(/^"?(.*?)"?,(.*)$/);
 			if (match) {
 				const name = match[1];
-				 iconMap[name] = `../../Icons/Digimon/${name.replace(/[^a-zA-Z0-9\-_. ]/g, '')}-icon.png`;
+				 iconMap[name] = `../../Icons/Digimon/${encodeURIComponent(name.replace(/[^a-zA-Z0-9\-_. ]/g, '') + '-icon.png')}`;
 			}
 		});
 		const iconPath = iconMap[digimon.Name] || '';

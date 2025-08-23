@@ -110,7 +110,7 @@ window.initSkillsTab = function () {
     </thead><tbody>`;
     data.forEach(row => {
       html += `<tr>
-        <td>${row['Icon'] ? `<img src="${row['Icon']}" class="icon-img" alt="icon">` : ''}</td>
+  <td>${row['Icon'] ? `<img src="${encodeURIComponent(row['Icon'])}" class="icon-img" alt="icon">` : ''}</td>
         <td><a href="#" class="skill-details-link" data-skill="${row['Move']}">${row['Move']}</a></td>
         <td>${row['Attribute']}</td>
         <td>${row['Type']}</td>

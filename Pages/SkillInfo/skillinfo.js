@@ -104,7 +104,7 @@ window.initSkillinfoTab = function () {
         const match = line.match(/^"?(.*?)"?,(.*)$/);
         if (match) {
           const name = match[1];
-          iconMap[name] = `Icons/Digimon/${name.replace(/[^a-zA-Z0-9\-_. ]/g, '')}-icon.png`;
+          iconMap[name] = `Icons/Digimon/${encodeURIComponent(name.replace(/[^a-zA-Z0-9\-_. ]/g, '') + '-icon.png')}`;
         }
       });
       digimons.sort((a, b) => Number(a['Level']) - Number(b['Level']));
