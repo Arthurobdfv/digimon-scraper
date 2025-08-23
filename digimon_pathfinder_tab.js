@@ -3,7 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 	// Load Digimon names from digimon_data.csv
-	 fetch('Database/digimon_data.csv').then(r => r.text()).then(function(dataText) {
+	 fetch(window.DIGIMON_CSV_PATHS?.data || 'Database/digimon_data.csv').then(r => r.text()).then(function(dataText) {
 		const lines = dataText.split('\n');
 		const names = [];
 		for (const line of lines.slice(1)) {
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		// Load all required CSVs in parallel
 		Promise.all([
 			 fetch('Database/digimon_evolutions.csv').then(r => r.text()),
-			 fetch('Database/digimon_data.csv').then(r => r.text()),
+			 fetch(window.DIGIMON_CSV_PATHS?.data || 'Database/digimon_data.csv').then(r => r.text()),
 			 fetch('Database/digimon_moves_complete.csv').then(r => r.text()),
 			 fetch('Database/digimon_moves.csv').then(r => r.text())
 		]).then(([evoText, dataText, movesText, movesListText]) => {

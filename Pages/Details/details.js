@@ -79,8 +79,8 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 
 				// Fetch moves and join for this Digimon
 				Promise.all([
-					fetchAndParseCSV('data/digimon_moves_complete.csv'),
-					fetchAndParseCSV('data/digimon_moves.csv')
+					fetchAndParseCSV(window.DIGIMON_CSV_PATHS.movesComplete),
+					fetchAndParseCSV(window.DIGIMON_CSV_PATHS.moves)
 				]).then(([movesComplete, movesCsv]) => {
 					// Get all moves for this Digimon from both sources
 					const moves1 = movesComplete.filter(row => row.Digimon === digimon.Name && row.Move);
@@ -166,8 +166,8 @@ function renderDigimonDetails(digimonName, digimonData, evolutionsData) {
 
 window.initDetailsTab = function() {
     Promise.all([
-		fetchAndParseCSV('data/digimon_data.csv'),
-		fetchAndParseCSV('data/digimon_evolutions.csv')
+		fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.data),
+		fetchAndParseCSV(window.DIGIMON_CSV_PATHS?.evolutions)
     ]).then(([digimonData, evolutionsData]) => {
         // Get Digimon name from SPA global variable or query parameter
         let digimonName = window.selectedDigimonName;
@@ -177,4 +177,5 @@ window.initDetailsTab = function() {
         }
         renderDigimonDetails(digimonName, digimonData, evolutionsData);
     });
+
 };

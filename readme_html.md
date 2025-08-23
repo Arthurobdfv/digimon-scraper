@@ -1,7 +1,7 @@
 # test copy.html Documentation
 
 ## Overview
-`test copy.html` is the main user interface for the DigimonScraper application. It allows users to browse, filter, and aggregate Digimon data using static datasets loaded from CSV resources (`digimon_data.csv`, `digimon_evolutions.csv`, `digimon_moves.csv`).
+`test copy.html` is the main user interface for the DigimonScraper application. It allows users to browse, filter, and aggregate Digimon data using static datasets loaded from configurable CSV resources (Digimon data, evolutions, moves). CSV paths are managed through the global configuration in `config.js`.
 
 ## Components
 
